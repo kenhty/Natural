@@ -5,6 +5,7 @@ Features:
 - Fibonacci sequence h1 h2 h3 h4 h5 h6
 - Vertical rhythm
 - Use normalize
+- Build the font stacks using comprehensive survey (http://www.codestyle.org/css/font-family/index.shtml)
 - OOCSS grid with 1.618em gutter
 - 1140px or 71.25em container
 - Responsive (comming soon)
