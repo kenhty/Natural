@@ -1,0 +1,146 @@
+body {
+	font: 16px/1.618em Corbel, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', 'Bitstream Vera Sans', 'Liberation Sans', Verdana, sans-serif;
+	color: #222;
+}
+
+p {
+	font-size: 1em;
+}
+
+small {
+    font-size: 0.8em;
+    line-height: 2.0225em;
+}
+
+/* indentation */
+/*
+p+p{text-indent:39.552px;margin-top:-25.888px;}
+form p+p{text-indent:0;}
+*/
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Palatino Linotype', Palatino, 'URW Palladio L', 'Book Antiqua', Baskerville, 'Bookman Old Style', 'Bitstream Charter', 'Nimbus Roman No9 L', Garamond, 'New Century Schoolbook', 'Century Schoolbook', 'Century Schoolbook L', Georgia, serif;
+	font-weight: bold;
+    margin: 0;
+}
+ 
+h1, .h1 {
+    font-size: 4.5em;
+    line-height: 1.0787em;
+    margin-top: 0.5393em;
+    margin-bottom: 0.5393em;
+} /* 72px */
+
+h2, .h2 {
+    font-size: 3.4375em;
+    line-height: 1.4121em;
+    margin-top: 0.706em;
+    margin-bottom: 0.706em;
+} /* 55px */
+
+h3, .h3 {
+    font-size: 2.78125em;
+    line-height: 1.1635em;
+    margin-top: 0.5818em;
+    margin-bottom: 0.5818em;
+} /* 44.5px */
+
+h4, .h4 {
+    font-size: 2.125em;
+    line-height: 1.5228em;
+    margin-top: 0.7614em;
+    margin-bottom: 0.7614em;
+} /* 34px */
+
+h5, .h5 {
+    font-size: 1.71875em;
+    line-height: 1.8828em;
+    margin-top: 0.9414em;
+    margin-bottom: 0.9414em;
+} /* 27.5px */
+
+h6, .h6 {
+    font-size: 1.3125em;
+    line-height: 1.2328em;
+    margin-top: 0.6164em;
+    margin-bottom: 0.6164em;
+} /* 21px */
+
+/* Lists */
+
+li ul,li ol {
+    margin: 0;
+}
+
+ol, ul {
+    margin: 1.618em 0;
+}
+
+/* Quotes */
+ 
+blockquote {
+    border-left: 1px solid #ADFF2F;
+    letter-spacing: 0.03em;
+    font-style: italic;
+    margin: 1.618em 0;
+    padding-left: 1.618em;
+}
+
+q {
+    quotes: '\201C' '\201D' '\2018' '\2019';
+}
+
+q:before {
+    content: open-quote;
+}
+
+q:after {
+    content: close-quote;
+}
+
+/* Tables */
+ 
+table { margin:1.618em;}
+th { font-weight:700;text-align:left; }
+tr,th,td {margin:1.618em;padding:0 1.618em;border:1px solid black;}
+tfoot { font-style: italic; }
+caption { text-align:center; }
+
+/* Other */
+
+a:link {text-decoration:none;color:#FF1493;}
+a:visited {color:DeepPink;}
+a:hover {text-decoration: underline;color:#CD1076;}
+a:active,a:focus {position:relative;top:1px;color:#8B0A50;}
+
+em,dfn,cite,q { font-style: italic; }
+dfn { font-weight: 700; }
+
+pre,code,tt { font: 1em monospace; line-height: 1.618em; } 
+tt { display: block; margin: 1.618em 0; }
+hr { margin-bottom:1.618em !important; }
+abbr, acronym { border-bottom:1px dotted #000; }
+
+/* Allows line wrapping of 'pre' */
+pre {
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+pre, code, kbd, samp {
+	font-family: Consolas,"Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;	
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+th {
+	text-align: left;
+}
+
+tr, th, td {
+	padding: 0 1em;
+}

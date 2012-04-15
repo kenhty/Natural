@@ -1,0 +1,22 @@
+.container, .line, .last-unit {overflow:hidden;}
+.lte-ie8 .container, .lte-ie8 .line, .lte-ie8 .last-unit {*overflow:visible; *zoom:1;}
+.container {width:100%; max-width:71.25em; min-width:775px ;margin:0 auto; padding:1.618em;} /* 1140px = 71.25em */
+.unit {float:left; min-height:1px; margin-right:1.618em;} /* 1.618em / 71.25em ~= 2.2709% */
+
+.size1of2 {width:48.8646%;}
+
+.size1of3 {width:31.8194%;}
+.size2of3 {width:65.9097%;}
+
+.size1of4 {width:23.2968%;}
+.size3of4 {width:74.4323%;}
+
+.size1of5 {width:18.1833%;}
+.size2of5 {width:38.6375%;}
+.size3of5 {width:59.0916%;}
+.size4of5 {width:79.5458%;}
+
+.size1of1, .last-unit {float:none; width:auto; margin-right:0;}
+.lte-ie8 .size1of1, .lte-ie8 .last-unit {_position:relative; _left:-3px; _margin-right:-3px;}
+
+.h-gutter {margin-bottom:1.618em;}
