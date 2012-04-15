@@ -102,7 +102,7 @@ q:after {
  
 table { margin:1.618em;}
 th { font-weight:700;text-align:left; }
-tr,th,td {margin:1.618em;padding:0 1.618em;border:1px solid black;}
+tr,th,td {margin:1.618em;padding:0 1.618em;}
 tfoot { font-style: italic; }
 caption { text-align:center; }
 
