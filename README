@@ -1,8 +1,11 @@
 Features:
 
+- Modular CSS framework
 - Golden ratio line height
 - Fibonacci sequence h1 h2 h3 h4 h5 h6
 - Vertical rhythm
 - Use normalize
 - OOCSS grid with 1.618em gutter
 - 1140px or 71.25em container
+- Responsive (comming soon)
+- form.css, table.css and other modules (comming soon)
