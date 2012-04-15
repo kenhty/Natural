@@ -1,5 +1,5 @@
 .container, .line, .last-unit {overflow:hidden;}
-.lte-ie8 .container, .lte-ie8 .line, .lte-ie8 .last-unit {*overflow:visible; *zoom:1;}
+.lt-ie8 .container, .lt-ie8 .line, .lt-ie8 .last-unit {*overflow:visible; *zoom:1;}
 .container {width:100%; max-width:71.25em; min-width:775px ;margin:0 auto; padding:1.618em;} /* 1140px = 71.25em */
 .unit {float:left; min-height:1px; margin-right:1.618em;} /* 1.618em / 71.25em ~= 2.2709% */
 
