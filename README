@@ -1,5 +1,6 @@
-feature:
+Features:
 
 - Golden ratio line height
 - Fibonacci sequence h1 h2 h3 h4 h5 h6
 - Vertical rhythm
+- Use normalize
