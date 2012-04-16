@@ -16,6 +16,16 @@
 .size3of5 {width:59.0916%;}
 .size4of5 {width:79.5458%;}
 
+.size1of6 {width:14.7743%;}
+.size5of6 {width:82.9549%;}
+
+.size1of7 {width:12.3392%;}
+.size2of7 {width:26.9494%;}
+.size3of7 {width:41.5595%;}
+.size4of7 {width:56.1696%;}
+.size5of7 {width:70.7797%;}
+.size6of7 {width:85.3899%;}
+
 .size1of1, .last-unit {float:none; width:auto; margin-right:0;}
 .lte-ie8 .size1of1, .lte-ie8 .last-unit {_position:relative; _left:-3px; _margin-right:-3px;}
 
