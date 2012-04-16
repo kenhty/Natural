@@ -8,9 +8,9 @@ Features:
 - Use normalize
 - Build the font stacks using comprehensive survey (http://www.codestyle.org/css/font-family/index.shtml)
 - OOCSS grid with 1.618em gutter
+- build in 1/6, 1/7, 1/8 and 1/9 OOCSS grid 
 - 1140px or 71.25em container
 - Responsive (comming soon)
-- 1/6 and 1/7 OOCSS grid (comming soon)
 - form.css, table.css and other modules (comming soon)
 - Natural Bootstrap ~= Twitter Bootstrap + HTML5 Boilerplate (comming soon)
 - Use Less (comming soon)
