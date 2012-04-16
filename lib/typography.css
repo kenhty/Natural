@@ -18,10 +18,10 @@ p+p{text-indent:39.552px;margin-top:-25.888px;}
 form p+p{text-indent:0;}
 */
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .h7 {
     font-family: 'Palatino Linotype', Palatino, 'URW Palladio L', 'Book Antiqua', Baskerville, 'Bookman Old Style', 'Bitstream Charter', 'Nimbus Roman No9 L', Garamond, 'New Century Schoolbook', 'Century Schoolbook', 'Century Schoolbook L', Georgia, serif;
 	font-weight: bold;
-    margin: 0;
+
 }
  
 h1, .h1 {
