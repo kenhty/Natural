@@ -1,8 +1,12 @@
 /* Smaller than standard 960 (devices and browsers) */
-/*@media only screen and (max-width: 959px) {}*/
+@media only screen and (max-width: 959px) {
+
+}
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
-/*@media only screen and (min-width: 768px) and (max-width: 959px) {}*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+}
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
@@ -10,59 +14,12 @@
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-/*@media only screen and (min-width: 480px) and (max-width: 767px) {}*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
     .container {width: auto; min-width: 0;}
     .unit {float: none !important; width: auto !important; margin-right: 0;}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-/* 320px = 20x16 */
-@media only screen and (min-width: 20em) and (device-aspect-ratio: 2/3) {
-
-/* uses base styles to bind to devices with 2:3 aspect ratio (iPhone, iPod Touch, etc.) */
-
-}
-	
-/* 480px = 30x16 */
-@media only screen and (min-width: 30em) and (device-aspect-ratio: 3/5) {
-
-/* Changes to use: perfect fourth (3:4); major sixth (3:5); and octave (1:2)
-   to bind to devices with 3:5 aspect ratio (many smartphones) */
-
-}
-
-/* 768px = 48x16 */
-@media only screen and (min-width: 48em) and (device-aspect-ratio: 3/4) {
-
-/* inherits 480px styles to bind to devices with 3:4 aspect ratio (iPad and other tablets)
-   plus some extra layout styles below as the screen is wide enough for columns */
-
-}
-
-/* 768px = 48x16 */
-@media only screen and (min-width: 48em) {
-    
-
-}
-
-/* 1280px = 80x16 */
-@media only screen and (min-width: 80em) and (device-aspect-ratio: 16/10) {
-
-/* for screens with aspect ratio 5:8 (minor sixth) use
-   minor third (5:6); minor sixth (5:8); and octave (1:2) */
-	
-}
-
