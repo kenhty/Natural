@@ -10,7 +10,7 @@ p {
 
 small {
     font-size: 0.8em;
-    line-height: 2.0225em;
+    line-height: 1.01125em;
 }
 
 /* indentation */
@@ -54,6 +54,17 @@ h6, .h6 {
     font-size: 1.3125em;
     line-height: 1.2328em;
 } /* 21px */
+
+
+
+
+
+
+
+
+
+
+
 
 /* Lists */
 
