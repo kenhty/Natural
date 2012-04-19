@@ -1,6 +1,7 @@
 body {
 	font: 16px/1.618em Corbel, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', 'Bitstream Vera Sans', 'Liberation Sans', Verdana, sans-serif;
 	color: #222;
+    text-rendering: optimizeLegibility;
 }
 
 p {
