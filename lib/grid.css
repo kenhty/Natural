@@ -37,7 +37,8 @@
 .size7of9 {width:77.2731%;}
 .size8of9 {width:88.6366%;}
 
-.size1of1, .last-unit {float:none; width:auto; margin-right:0;}
+.size1of1 {width:100%;}
+.size1of1, .last-unit {margin-right:0;}
 .lte-ie8 .size1of1, .lte-ie8 .last-unit {_position:relative; _left:-3px; _margin-right:-3px;}
 
 .h-gutter {margin-bottom:1.618em;}
