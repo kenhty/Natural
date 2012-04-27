@@ -6,6 +6,10 @@ form header {
     margin-bottom: 3.236em;
 }
 
-form select, form input {
-    width: 98%;
+form select {
+    width: 99%;
+}
+
+form input {
+    width: 97%;
 }

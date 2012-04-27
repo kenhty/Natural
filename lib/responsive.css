@@ -1,29 +1,50 @@
-/* Smaller than standard 960 (devices and browsers) */
-@media only screen and (max-width: 959px) {
+@media only screen and (max-width: 64em) {
+    .container {
+        max-width: 60em;
+        min-width: 47.9375em;
+        padding:0 2.2709%;
+    }
 
+    .h-gutter {margin-bottom:2.2709%;}
 }
+
+/* Smaller than standard 960 (devices and browsers) */
+/*@media only screen and (max-width: 959px) {
+
+}*/
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
+/*@media only screen and (min-width: 768px) and (max-width: 959px) {
 
-}
+}*/
 
 /* All Mobile Sizes (devices and browser) */
-@media only screen and (max-width: 767px) {
+/*@media only screen and (max-width: 767px) {
 
-}
+}*/
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+/*@media only screen and (min-width: 480px) and (max-width: 767px) {
 
-}
+}*/
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 479px) {
-    .container {width: auto; min-width: 0;}
-    .unit {float: none !important; width: auto !important; margin-right: 0;}
-}
+@media only screen and (max-width: 29.9375em) {
+    .container {
+        min-width: 0;
+        max-width: 28.5778em;
+        padding:0 2.2709%; /* reset padding to 2.2709% */
+    }
 
+    .h-gutter {margin-bottom:2.2709%;}
+
+    .unit {
+        float: none !important;
+        width: auto !important;
+        margin-right: 0;
+    }
+}
+/*
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
        only screen and (min--moz-device-pixel-ratio: 1.5),
        only screen and (-o-device-pixel-ratio: 3/2), 
@@ -32,4 +53,4 @@
 	   //high resolution images go here
 
 }
-
+*/
