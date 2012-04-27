@@ -1,11 +1,10 @@
-@media only screen and (max-width: 64em) {
+/* for 1024px layout */
+@media only screen and (max-width: 1023px) {
     .container {
         max-width: 60em;
-        min-width: 47.9375em;
+        min-width: 47.9375em; /* 767px */
         padding:0 2.2709%;
     }
-
-    .h-gutter {margin-bottom:2.2709%;}
 }
 
 /* Smaller than standard 960 (devices and browsers) */
@@ -29,14 +28,12 @@
 }*/
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 29.9375em) {
+@media only screen and (max-width: 479px) {
     .container {
         min-width: 0;
         max-width: 28.5778em;
         padding:0 2.2709%; /* reset padding to 2.2709% */
     }
-
-    .h-gutter {margin-bottom:2.2709%;}
 
     .unit {
         float: none !important;
