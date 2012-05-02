@@ -1,5 +1,5 @@
 body {
-	font: 16px/1.618em Corbel, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', 'Bitstream Vera Sans', 'Liberation Sans', Verdana, sans-serif;
+	font: 16px/1.618 Corbel, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', 'Bitstream Vera Sans', 'Liberation Sans', Verdana, sans-serif;
 	color: #222;
 }
 
@@ -10,7 +10,7 @@ p {
 
 small {
     font-size: 0.8em;
-    line-height: 1.01125em;
+    line-height: 1.01125;
 }
 
 /* indentation */
@@ -27,32 +27,32 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
  
 h1, .h1 {
     font-size: 4.5em;
-    line-height: 1.0787em;
+    line-height: 1.0787;
 } /* 72px */
 
 h2, .h2 {
     font-size: 3.4375em;
-    line-height: 1.4121em;
+    line-height: 1.4121;
 } /* 55px */
 
 h3, .h3 {
     font-size: 2.78125em;
-    line-height: 1.1635em;
+    line-height: 1.1635;
 } /* 44.5px */
 
 h4, .h4 {
     font-size: 2.125em;
-    line-height: 1.5228em;
+    line-height: 1.5228;
 } /* 34px */
 
 h5, .h5 {
     font-size: 1.71875em;
-    line-height: 1.8828em;
+    line-height: 1.8828;
 } /* 27.5px */
 
 h6, .h6 {
     font-size: 1.3125em;
-    line-height: 1.2328em;
+    line-height: 1.2328;
 } /* 21px */
 
 /* Lists */
