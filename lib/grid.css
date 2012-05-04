@@ -26,18 +26,8 @@
 .size5of7 {width:70.7797%;}
 .size6of7 {width:85.3899%;}
 
-.size1of8 {width:10.5130%;}
-.size3of8 {width:36.0807%;}
-.size5of8 {width:61.6484%;}
-
-.size1of9 {width:9.0926%;}
-.size2of9 {width:20.4560%;}
-.size4of9 {width:43.1828%;}
-.size5of9 {width:54.5463%;}
-.size7of9 {width:77.2731%;}
-.size8of9 {width:88.6366%;}
-
 .size1of1 {width:100%;}
+
 .size1of1, .last-unit {margin-right:0;}
 .lte-ie8 .size1of1, .lte-ie8 .last-unit {_position:relative; _left:-3px; _margin-right:-3px;}
 
