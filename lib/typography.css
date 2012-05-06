@@ -1,10 +1,10 @@
 body {
-	font: 16px/1.618 Corbel, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', 'Bitstream Vera Sans', 'Liberation Sans', Verdana, sans-serif;
-	color: #222;
+    font: 16px/1.618 Corbel, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', 'Bitstream Vera Sans', 'Liberation Sans', Verdana, sans-serif;
+    color: #222;
 }
 
 p {
-	font-size: 1em;
+    font-size: 1em;
     margin: 1.618em 0;
 }
 
@@ -13,15 +13,9 @@ small {
     line-height: 1.01125;
 }
 
-/* indentation */
-/*
-p+p{text-indent:39.552px;margin-top:-25.888px;}
-form p+p{text-indent:0;}
-*/
-
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: 'Palatino Linotype', Palatino, 'URW Palladio L', 'Book Antiqua', Baskerville, 'Bookman Old Style', 'Bitstream Charter', 'Nimbus Roman No9 L', Garamond, 'New Century Schoolbook', 'Century Schoolbook', 'Century Schoolbook L', Georgia, serif;
-	font-weight: bold;
+    font-weight: bold;
     margin: 0;
 }
  
