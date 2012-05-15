@@ -2,8 +2,7 @@
 @media only screen and (max-width: 1023px) {
     .container {
         max-width: 60em;
-        min-width: 47.9375em; /* 767px */
-        padding:0 2.2709%;
+        min-width: 767px;
     }
 }
 
@@ -32,7 +31,6 @@
     .container {
         min-width: 0;
         max-width: 28.5778em;
-        padding:0 2.2709%; /* reset padding to 2.2709% */
     }
 
     .unit {

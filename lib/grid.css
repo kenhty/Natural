@@ -1,6 +1,5 @@
 .container, .line, .last-unit {overflow:hidden;}
-.lt-ie8 .container, .lt-ie8 .line, .lt-ie8 .last-unit {*overflow:visible; *zoom:1;}
-.container {max-width:71.25em; min-width:64em; margin:0 auto; padding:0 1.618em;} /* 1140px = 71.25em, 1024px = 64em */
+.container {max-width:71.25em; min-width:1024px; margin:0 auto;} /* 1140px = 71.25em, 1024px = 64em */
 .unit {float:left; min-height:1px; margin-right:2.2709%;} /* 1.618em / 71.25em ~= 2.2709% */
 
 .size1of2 {width:48.8646%;}
@@ -29,6 +28,8 @@
 .size1of1 {width:100%;}
 
 .size1of1, .last-unit {margin-right:0;}
-.lte-ie8 .size1of1, .lte-ie8 .last-unit {_position:relative; _left:-3px; _margin-right:-3px;}
+
+/*.lte-ie8 .size1of1, .lte-ie8 .last-unit {_position:relative; _left:-3px; _margin-right:-3px;}*/
+/*.lt-ie8 .container, .lt-ie8 .line, .lt-ie8 .last-unit {*overflow:visible; *zoom:1;}*/
 
 .h-gutter {margin-bottom:1.618em;}
