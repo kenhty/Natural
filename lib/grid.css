@@ -1,5 +1,5 @@
 .container, .line, .last-unit {overflow:hidden;}
-.container {max-width:71.25em; min-width:1024px; margin:0 auto;} /* 1140px = 71.25em, 1024px = 64em */
+.container {max-width:71.25em; min-width:64em; margin:0 auto;} /* 1140px = 71.25em, 1024px = 64em */
 .unit {float:left; min-height:1px; margin-right:2.2709%;} /* 1.618em / 71.25em ~= 2.2709% */
 
 .size1of2 {width:48.8646%;}

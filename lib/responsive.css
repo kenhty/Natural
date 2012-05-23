@@ -1,8 +1,8 @@
 /* for 1024px layout */
 @media only screen and (max-width: 1023px) {
     .container {
-        max-width: 60em;
-        min-width: 767px;
+        max-width: 63.9375em; /* 1023px */
+        min-width: 46.0625em; /* 767px */
     }
 }
 
