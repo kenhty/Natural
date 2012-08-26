@@ -7,9 +7,13 @@ form header {
 }
 
 form select {
-    width: 99%;
+    width: 100%;
 }
 
 form input {
-    width: 97%;
+    width: 100%;
+}
+
+fieldset {
+    padding: 0 0.809em;;
 }

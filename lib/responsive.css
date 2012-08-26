@@ -1,11 +1,3 @@
-/* for 1024px layout */
-@media only screen and (max-width: 1023px) {
-    .container {
-        max-width: 63.9375em; /* 1023px */
-        min-width: 46.0625em; /* 767px */
-    }
-}
-
 /* Smaller than standard 960 (devices and browsers) */
 /*@media only screen and (max-width: 959px) {
 
@@ -27,7 +19,7 @@
 }*/
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 479px) {
+/*@media only screen and (max-width: 479px) {
     .container {
         min-width: 0;
         max-width: 28.5778em;
@@ -38,7 +30,7 @@
         width: auto !important;
         margin-right: 0;
     }
-}
+}*/
 /*
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
        only screen and (min--moz-device-pixel-ratio: 1.5),
@@ -49,3 +41,18 @@
 
 }
 */
+@media only screen and (min-width: 46.75em) and (max-width: 61.0625em) { /* 748px = 46.75em 977px = 61.0625em */
+    .container {width:46.75em;}
+}
+
+@media only screen and (min-width: 61.125em) and (max-width: 76.0625em) { /* 978px = 61.125em 1217px = 76.0625em */
+    .container {width:61.125em;}
+}
+
+@media only screen and (min-width: 76.125em) and (max-width: 87.9375em) { /* 1218px = 76.125em 1407px = 87.9375em */
+    .container {width:76.125em;}
+}
+
+@media only screen and (min-width: 88em) { /* 1408px = 88em */
+    .container {width:86.125em;}
+}
