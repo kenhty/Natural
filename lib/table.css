@@ -1,0 +1,15 @@
+table {border-collapse: collapse; border-spacing: 0;}
+
+th {text-align: left;}
+
+tr, th, td {padding: 0 1em;}
+
+table { margin:1.618em;}
+
+th { font-weight:700;text-align:left; }
+
+tr,th,td {margin:1.618em;padding:0 1.618em;}
+
+tfoot { font-style: italic; }
+
+caption { text-align:center; }
