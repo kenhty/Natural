@@ -1,0 +1,19 @@
+form {
+    margin: 1.618em 0;
+}
+
+form header {
+    margin-bottom: 3.236em;
+}
+
+form select {
+    width: 100%;
+}
+
+form input {
+    width: 100%;
+}
+
+fieldset {
+    padding: 0 0.809em;;
+}

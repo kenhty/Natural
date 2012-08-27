@@ -1,0 +1,118 @@
+body {
+    font: 16px/1.618 Corbel, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', 'Bitstream Vera Sans', 'Liberation Sans', Verdana, sans-serif;
+    color: #222;
+}
+
+p {
+    font-size: 1em;
+    margin: 1.618em 0;
+}
+
+small {
+    font-size: 0.8em;
+    line-height: 1.01125;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Palatino Linotype', Palatino, 'URW Palladio L', 'Book Antiqua', Baskerville, 'Bookman Old Style', 'Bitstream Charter', 'Nimbus Roman No9 L', Garamond, 'New Century Schoolbook', 'Century Schoolbook', 'Century Schoolbook L', Georgia, serif;
+    font-weight: bold;
+    margin: 0;
+}
+ 
+h1 {
+    font-size: 4.5em;
+    line-height: 1.0787;
+} /* 72px */
+
+h2 {
+    font-size: 3.4375em;
+    line-height: 1.4121;
+} /* 55px */
+
+h3 {
+    font-size: 2.78125em;
+    line-height: 1.1635;
+} /* 44.5px */
+
+h4 {
+    font-size: 2.125em;
+    line-height: 1.5228;
+} /* 34px */
+
+h5 {
+    font-size: 1.71875em;
+    line-height: 1.8828;
+} /* 27.5px */
+
+h6 {
+    font-size: 1.3125em;
+    line-height: 1.2328;
+} /* 21px */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Quotes */
+ 
+blockquote {
+    border-left: 1px solid #ADFF2F;
+    letter-spacing: 0.03em;
+    font-style: italic;
+    margin: 1.618em 0;
+    padding-left: 1.618em;
+}
+
+q {
+    quotes: '\201C' '\201D' '\2018' '\2019';
+}
+
+q:before {
+    content: open-quote;
+}
+
+q:after {
+    content: close-quote;
+}
+
+/* Other */
+
+a:link {text-decoration:none;}
+a:hover {text-decoration: underline;}
+a:active,a:focus {position:relative;top:1px;}
+
+em,dfn,cite,q { font-style: italic; }
+dfn { font-weight: 700; }
+
+pre,code,tt { line-height: 1.618; } 
+tt { display: block; margin: 1.618em 0; }
+hr { margin-bottom:1.618em !important; }
+abbr, acronym { border-bottom:1px dotted #000; }
+
+/* Allows line wrapping of 'pre' */
+pre {
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+pre, code, kbd, samp {
+	font-family: Consolas,"Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;	
+}
+
+
+
+
+
+b, strong {font-weight: bold;}
+i, em {font-style: italic;}
