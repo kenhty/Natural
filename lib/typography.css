@@ -49,11 +49,8 @@ h6 {
     line-height: 1.2328;
 } /* 21px */
 
-/* Lists */
 
-li ul, li ol {
-    margin: 0;
-}
+
 
 
 
@@ -88,25 +85,16 @@ q:after {
     content: close-quote;
 }
 
-/* Tables */
- 
-table { margin:1.618em;}
-th { font-weight:700;text-align:left; }
-tr,th,td {margin:1.618em;padding:0 1.618em;}
-tfoot { font-style: italic; }
-caption { text-align:center; }
-
 /* Other */
 
-a:link {text-decoration:none;color:#FF1493;}
-a:visited {color:DeepPink;}
-a:hover {text-decoration: underline;color:#CD1076;}
-a:active,a:focus {position:relative;top:1px;color:#8B0A50;}
+a:link {text-decoration:none;}
+a:hover {text-decoration: underline;}
+a:active,a:focus {position:relative;top:1px;}
 
 em,dfn,cite,q { font-style: italic; }
 dfn { font-weight: 700; }
 
-pre,code,tt { font: 1em monospace; line-height: 1.618em; } 
+pre,code,tt { line-height: 1.618; } 
 tt { display: block; margin: 1.618em 0; }
 hr { margin-bottom:1.618em !important; }
 abbr, acronym { border-bottom:1px dotted #000; }
@@ -122,22 +110,9 @@ pre, code, kbd, samp {
 	font-family: Consolas,"Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;	
 }
 
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-th {
-	text-align: left;
-}
-
-tr, th, td {
-	padding: 0 1em;
-}
 
 
-nav ul, nav ol {list-style: none; margin: 0; padding: 0;}
+
 
 b, strong {font-weight: bold;}
 i, em {font-style: italic;}
-small {font-size: 80%;}
