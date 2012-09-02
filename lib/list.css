@@ -1,3 +1,13 @@
-nav ul, nav ol {list-style: none; margin: 0; padding: 0;}
+nav ul, nav ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
-li ul, li ol {margin: 0;}
+ul, ol, dl {
+    margin: 1.618em 0;
+}
+
+ul:nth-of-type(1), ol:nth-of-type(1), dl:nth-of-type(1) {
+    margin: 0 0 1.618em 0;
+}

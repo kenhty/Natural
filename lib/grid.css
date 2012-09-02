@@ -1,36 +1,51 @@
-.container, .line, .last-unit {overflow:hidden;}
-.container {width:18.75em; margin:0 auto;} /* 300px = 18.75em, 1024px = 64em */
-.line-pad {margin: 0 2.2709%;}
-.unit {float:left; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box; margin-right:2.2709%;} /* 1.618em / 71.25em ~= 2.2709% */
+.container, .line {
+    overflow:hidden;
+}
 
-.size1of2 {width:48.8646%;}
+.container {
+    width: 18.75em;  /* 300px = 18.75em, 1024px = 64em */
+    margin: 0 auto;
+    box-sizing: border-box;
+}
 
-.size1of3 {width:31.8194%;}
-.size2of3 {width:65.9097%;}
+.container-padding {
+    padding: 1.618em;
+}
 
-.size1of4 {width:23.2968%;}
-.size3of4 {width:74.4323%;}
+.unit {
+    float: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+} 
 
-.size1of5 {width:18.1833%;}
-.size2of5 {width:38.6375%;}
-.size3of5 {width:59.0916%;}
-.size4of5 {width:79.5458%;}
+.gutter {
+    padding-right: 1.618em;
+}
 
-.size1of6 {width:14.7743%;}
-.size5of6 {width:82.9549%;}
+.size1of2 {width: 50%;}
 
-.size1of7 {width:12.3392%;}
-.size2of7 {width:26.9494%;}
-.size3of7 {width:41.5595%;}
-.size4of7 {width:56.1696%;}
-.size5of7 {width:70.7797%;}
-.size6of7 {width:85.3899%;}
+.size1of3 {width: 33.3333%;}
+.size2of3 {width: 66.6667%;}
+
+.size1of4 {width: 25%;}
+.size3of4 {width: 75%;}
+
+.size1of5 {width: 20%;}
+.size2of5 {width: 40%;}
+.size3of5 {width: 60%;}
+.size4of5 {width: 80%;}
+
+.size1of6 {width: 16.6667%;}
+.size5of6 {width: 83.3333%;}
+
+.size1of7 {width: 14.2857%;}
+.size2of7 {width: 28.5714%;}
+.size3of7 {width: 42.8571%;}
+.size4of7 {width: 57.1429%;}
+.size5of7 {width: 71.4286%;}
+.size6of7 {width: 85.7143%;}
 
 .size1of1 {width:100%;}
 
-.size1of1, .unit:last-child {margin-right:0;}
-
-/*.lte-ie8 .size1of1, .lte-ie8 .last-unit {_position:relative; _left:-3px; _margin-right:-3px;}*/
-/*.lt-ie8 .container, .lt-ie8 .line, .lt-ie8 .last-unit {*overflow:visible; *zoom:1;}*/
-
-.h-gutter {margin-bottom:2.2709%;}
+.h-gutter {margin-bottom: 1.618em;}
