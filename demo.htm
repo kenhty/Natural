@@ -1,9 +1,4 @@
 <!doctype html>
-<!--[if lt IE 7]> <html class='no-js lt-ie9 lt-ie8 lt-ie7' lang='en'> <![endif]-->
-<!--[if IE 7]>    <html class='no-js lt-ie9 lt-ie8' lang='en'> <![endif]-->
-<!--[if IE 8]>    <html class='no-js lt-ie9' lang='en'> <![endif]-->
-<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
-<!--[if gt IE 8]><!--> <html class='no-js' lang='en'> <!--<![endif]-->
 <head>
 	<meta charset='utf-8'>
 	<title>Example</title>
@@ -12,6 +7,9 @@
 	<meta name='viewport' content='width=device-width'>
 	<link rel='stylesheet' type='text/css' href='natural.css'>
 	<style type='text/css'>
+	.text-centering {
+	    text-align: center;
+	}
         ol {
             list-style-type: upper-roman;
         }
@@ -23,7 +21,7 @@
         .grid-example h5 {
 	    color: #fff;
             background-color: #222;
-	    text-align: center;
+     	    text-align: center;
         }
         
 	.grid-example .line {
@@ -50,9 +48,33 @@
         body {
             background-color: #222;
         }
+
     </style> 
 </head>
-<body><div class='line grid-example '>
+<body>
+<div class='container container-padding'>
+  <div class='line'>
+    <header class='unit size1of1'>
+      <h1 class='text-centering'>Natural CSS framework</h1>
+      <h5 class='text-centering'>A cutting-edge CSS framework</h5>
+    </header>
+  </div>
+  <div class='line'>
+    <div class='unit size1of3 gutter'>
+      <h4>Mighty Flexible</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor lacinia turpis nec pulvinar. Duis consequat tincidunt odio, non molestie purus tempus eget. Aliquam nec nisi non lacus auctor semper nec ac felis. Suspendisse potenti. Phasellus nisl tellus, commodo ut pretium eu, commodo eget elit. Vivamus sed tellus vel libero varius commodo in in libero. Maecenas commodo nulla vitae velit tincidunt eu dictum lectus mattis. Mauris eros nisi, mattis ac rhoncus non, pretium et est. In tincidunt dolor et lacus porta ut congue urna fringilla. Nunc pellentesque, massa ac vestibulum placerat, felis purus aliquam nisi, a mattis lacus risus vel neque.</p>
+    </div>
+    <div class='unit size1of3 gutter'>
+      <h4>Aesthetic Elegance</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor lacinia turpis nec pulvinar. Duis consequat tincidunt odio, non molestie purus tempus eget. Aliquam nec nisi non lacus auctor semper nec ac felis. Suspendisse potenti. Phasellus nisl tellus, commodo ut pretium eu, commodo eget elit. Vivamus sed tellus vel libero varius commodo in in libero. Maecenas commodo nulla vitae velit tincidunt eu dictum lectus mattis. Mauris eros nisi, mattis ac rhoncus non, pretium et est. In tincidunt dolor et lacus porta ut congue urna fringilla. Nunc pellentesque, massa ac vestibulum placerat, felis purus aliquam nisi, a mattis lacus risus vel neque.</p>
+    </div>
+    <div class='unit size1of3'>
+      <h4>Placeholder</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor lacinia turpis nec pulvinar. Duis consequat tincidunt odio, non molestie purus tempus eget. Aliquam nec nisi non lacus auctor semper nec ac felis. Suspendisse potenti. Phasellus nisl tellus, commodo ut pretium eu, commodo eget elit. Vivamus sed tellus vel libero varius commodo in in libero. Maecenas commodo nulla vitae velit tincidunt eu dictum lectus mattis. Mauris eros nisi, mattis ac rhoncus non, pretium et est. In tincidunt dolor et lacus porta ut congue urna fringilla. Nunc pellentesque, massa ac vestibulum placerat, felis purus aliquam nisi, a mattis lacus risus vel neque.</p>
+    </div>
+  </div>
+</div>
+<div class='line grid-example '>
     <div class='container'>
         <div class='line'>
             <header class='unit size1of1'>
@@ -60,143 +82,161 @@
             </header>
         </div>
         <div class='line'>
-            <div class='unit size1of5'>
+            <div class='unit size1of5 gutter'>
 	            <h5>1/5</h5>
 		        
             </div>
-            <div class='unit size1of5'>
+            <div class='unit size1of5 gutter'>
 		        <h5>1/5</h5>
 		        
             </div>
-	        <div class='unit size1of5'>
+	        <div class='unit size1of5 gutter'>
+		        <h5>1/5</h5>
+		        
+	        </div>
+	        <div class='unit size1of5 gutter'>
 		        <h5>1/5</h5>
 		        
 	        </div>
 	        <div class='unit size1of5'>
-		        <h5>1/5</h5>
-		        
-	        </div>
-	        <div class='unit size1of5 last-unit'>
 		        <h5>1/5</h5>
 		        
 	        </div>
         </div>
         <div class='line'>
-	        <div class='unit size1of5'>
+	        <div class='unit size1of5 gutter'>
 		        <h5>1/5</h5>
                 
             </div>
-	        <div class='unit size1of5'>
+	        <div class='unit size1of5 gutter'>
 		        <h5>1/5</h5>
 		        
             </div>
-	        <div class='unit size2of5'>
+	        <div class='unit size2of5 gutter'>
 		        <h5>2/5</h5>
                 
             </div>
-	        <div class='unit size1of5 last-unit'>
+	        <div class='unit size1of5'>
 		        <h5>1/5</h5>
 		        
             </div>
         </div>
         <div class='line'>
-	        <div class='unit size1of5'>
+	        <div class='unit size1of5 gutter'>
 		        <h5>1/5</h5>
                 
             </div>
-            <div class='unit size2of5'>
+            <div class='unit size2of5 gutter'>
 		        <h5>2/5</h5>
                     
             </div>
+	        <div class='unit size1of5 gutter'>
+		        <h5>1/5</h5>
+		        
+            </div>
 	        <div class='unit size1of5'>
 		        <h5>1/5</h5>
 		        
             </div>
-	        <div class='unit size1of5 last-unit'>
-		        <h5>1/5</h5>
-		        
-            </div>
         </div>
         <div class='line'>
-	        <div class='unit size1of5'>
+	        <div class='unit size1of5 gutter'>
 		        <h5>1/5</h5>
 		        
 	        </div>
-	        <div class='unit size1of5'>
+	        <div class='unit size1of5 gutter'>
 		        <h5>1/5</h5>
 		        
 	        </div>
-	        <div class='unit size1of5'>
+	        <div class='unit size1of5 gutter'>
 		        <h5>1/5</h5>
-		        
-	        </div>
-	        <div class='unit size2of5 last-unit'>
-		        <h5>2/5</h5>
-		        
-	        </div>
-        </div>
-        <div class='line'>
-	        <div class='unit size2of5'>
-		        <h5>2/5</h5>
-		        
-	        </div>
-	        <div class='unit size1of5'>
-		        <h5>1/5</h5>
-		        
-	        </div>
-	        <div class='unit size1of5'>
-		        <h5>1/5</h5>
-		        
-	        </div>
-	        <div class='unit size1of5 last-unit'>
-		        <h5>1/5</h5>
-		        
-	        </div>
-        </div>
-        <div class='line'>
-	        <div class='unit size2of5'>
-		        <h5>2/5</h5>
 		        
 	        </div>
 	        <div class='unit size2of5'>
 		        <h5>2/5</h5>
 		        
 	        </div>
-	        <div class='unit size1of5 last-unit'>
+        </div>
+        <div class='line'>
+	        <div class='unit size2of5 gutter'>
+		        <h5>2/5</h5>
+		        
+	        </div>
+	        <div class='unit size1of5 gutter'>
+		        <h5>1/5</h5>
+		        
+	        </div>
+	        <div class='unit size1of5 gutter'>
+		        <h5>1/5</h5>
+		        
+	        </div>
+	        <div class='unit size1of5'>
 		        <h5>1/5</h5>
 		        
 	        </div>
         </div>
         <div class='line'>
-            <div class='unit size1of5'>
+	        <div class='unit size2of5 gutter'>
+		        <h5>2/5</h5>
+		        
+	        </div>
+	        <div class='unit size2of5 gutter'>
+		        <h5>2/5</h5>
+		        
+	        </div>
+	        <div class='unit size1of5'>
+		        <h5>1/5</h5>
+		        
+	        </div>
+        </div>
+        <div class='line'>
+            <div class='unit size1of5 gutter'>
 		        <h5>1/5</h5>
 		        
             </div>
-        	<div class='unit size2of5'>
+        	<div class='unit size2of5 gutter'>
 		        <h5>2/5</h5>
 		        
             </div>
-	        <div class='unit size2of5 last-unit'>
+	        <div class='unit size2of5'>
 		        <h5>2/5</h5>
 		        
             </div>
         </div>
         <div class='line'>
+	        <div class='unit size2of5 gutter'>
+		        <h5>2/5</h5>
+		        
+	        </div>
+	        <div class='unit size1of5 gutter'>
+		        <h5>1/5</h5>
+		        
+	        </div>
 	        <div class='unit size2of5'>
 		        <h5>2/5</h5>
 		        
 	        </div>
+        </div>
+        <div class='line'>
+	        <div class='unit size1of5 gutter'>
+		        <h5>1/5</h5>
+		        
+	        </div>
+	        <div class='unit size3of5 gutter'>
+		        <h5>3/5</h5>
+		        
+	        </div>
 	        <div class='unit size1of5'>
 		        <h5>1/5</h5>
 		        
 	        </div>
-	        <div class='unit size2of5 last-unit'>
-		        <h5>2/5</h5>
-		        
-	        </div>
         </div>
         <div class='line'>
-	        <div class='unit size1of5'>
+	        <div class='unit size1of5 gutter'>
+		        <h5>1/5</h5>
+		        
+	        </div>
+	        <div class='unit size1of5 gutter'>
 		        <h5>1/5</h5>
 		        
 	        </div>
@@ -204,161 +244,147 @@
 		        <h5>3/5</h5>
 		        
 	        </div>
-	        <div class='unit size1of5 last-unit'>
-		        <h5>1/5</h5>
-		        
-	        </div>
         </div>
         <div class='line'>
-	        <div class='unit size1of5'>
-		        <h5>1/5</h5>
-		        
-	        </div>
-	        <div class='unit size1of5'>
-		        <h5>1/5</h5>
-		        
-	        </div>
-	        <div class='unit size3of5 last-unit'>
+	        <div class='unit size3of5 gutter'>
 		        <h5>3/5</h5>
 		        
 	        </div>
+	        <div class='unit size1of5 gutter'>
+		        <h5>1/5</h5>
+		        
+	        </div>
+	        <div class='unit size1of5'>
+		        <h5>1/5</h5>
+		        
+	        </div>
         </div>
         <div class='line'>
+	        <div class='unit size2of5 gutter'>
+		        <h5>2/5</h5>
+		        
+	        </div>
 	        <div class='unit size3of5'>
 		        <h5>3/5</h5>
 		        
 	        </div>
-	        <div class='unit size1of5'>
-		        <h5>1/5</h5>
-		        
-	        </div>
-	        <div class='unit size1of5 last-unit'>
-		        <h5>1/5</h5>
-		        
-	        </div>
         </div>
         <div class='line'>
+	        <div class='unit size3of5 gutter'>
+		        <h5>3/5</h5>
+		        
+	        </div>
 	        <div class='unit size2of5'>
 		        <h5>2/5</h5>
 		        
 	        </div>
-	        <div class='unit size3of5 last-unit'>
-		        <h5>3/5</h5>
-		        
-	        </div>
         </div>
         <div class='line'>
-	        <div class='unit size3of5'>
-		        <h5>3/5</h5>
-		        
-	        </div>
-	        <div class='unit size2of5 last-unit'>
-		        <h5>2/5</h5>
-		        
-	        </div>
-        </div>
-        <div class='line'>
-	        <div class='unit size1of5'>
+	        <div class='unit size1of5 gutter'>
 		        <h5>1/5</h5>
 		        
 	        </div>
-	        <div class='unit size4of5 last-unit'>
-		        <h5>4/5</h5>
-		        
-	        </div>
-        </div>
-        <div class='line'>
 	        <div class='unit size4of5'>
 		        <h5>4/5</h5>
 		        
 	        </div>
-	        <div class='unit size1of5 last-unit'>
+        </div>
+        <div class='line'>
+	        <div class='unit size4of5 gutter'>
+		        <h5>4/5</h5>
+		        
+	        </div>
+	        <div class='unit size1of5'>
 		        <h5>1/5</h5>
 		        
 	        </div>
         </div>
         <div class='line'>
-	        <div class='unit size1of4'>
+	        <div class='unit size1of4 gutter'>
+		        <h5>1/4</h5>
+		        
+	        </div>
+	        <div class='unit size1of4 gutter'>
+		        <h5>1/4</h5>
+		        
+	        </div>
+	        <div class='unit size1of4 gutter'>
 		        <h5>1/4</h5>
 		        
 	        </div>
 	        <div class='unit size1of4'>
-		        <h5>1/4</h5>
-		        
-	        </div>
-	        <div class='unit size1of4'>
-		        <h5>1/4</h5>
-		        
-	        </div>
-	        <div class='unit size1of4 last-unit'>
 		        <h5>1/4</h5>
 		        
 	        </div>
         </div>
         <div class='line'>
+	        <div class='unit size1of4 gutter'>
+		        <h5>1/4</h5>
+		        
+	        </div>
+	        <div class='unit size1of2 gutter'>
+		        <h5>1/2</h5>
+		        
+	        </div>
 	        <div class='unit size1of4'>
 		        <h5>1/4</h5>
 		        
+	        </div>
+        </div>
+        <div class='line'>
+	        <div class='unit size1of4 gutter'>
+		        <h5>1/4</h5>
+		        
+	        </div>
+	        <div class='unit size1of4 gutter'>
+		        <h5>1/4</h5>
+	        	
 	        </div>
 	        <div class='unit size1of2'>
 		        <h5>1/2</h5>
 		        
 	        </div>
-	        <div class='unit size1of4 last-unit'>
-		        <h5>1/4</h5>
-		        
-	        </div>
         </div>
         <div class='line'>
-	        <div class='unit size1of4'>
-		        <h5>1/4</h5>
-		        
-	        </div>
-	        <div class='unit size1of4'>
-		        <h5>1/4</h5>
-	        	
-	        </div>
-	        <div class='unit size1of2 last-unit'>
+	        <div class='unit size1of2 gutter'>
 		        <h5>1/2</h5>
 		        
 	        </div>
-        </div>
-        <div class='line'>
-	        <div class='unit size1of2'>
-		        <h5>1/2</h5>
-		        
-	        </div>
-	        <div class='unit size1of4'>
+	        <div class='unit size1of4 gutter'>
 		        <h5>1/4</h5>
 	        	
 	        </div>
-	        <div class='unit size1of4 last-unit'>
+	        <div class='unit size1of4'>
 	        	<h5>1/4</h5>
 	        	
         	</div>
         </div>
         <div class='line'>
+	        <div class='unit size1of4 gutter'>
+		        <h5>1/4</h5>
+	        	
+	        </div>
+	        <div class='unit size3of4'>
+		        <h5>3/4</h5>
+		        
+	        </div>
+        </div>
+        <div class='line'>
+	        <div class='unit size3of4 gutter'>
+		        <h5>3/4</h5>
+	        	
+	        </div>
 	        <div class='unit size1of4'>
 		        <h5>1/4</h5>
 	        	
 	        </div>
-	        <div class='unit size3of4 last-unit'>
-		        <h5>3/4</h5>
-		        
-	        </div>
         </div>
         <div class='line'>
-	        <div class='unit size3of4'>
-		        <h5>3/4</h5>
+	        <div class='unit size1of3 gutter'>
+		        <h5>1/3</h5>
 	        	
 	        </div>
-	        <div class='unit size1of4 last-unit'>
-		        <h5>1/4</h5>
-	        	
-	        </div>
-        </div>
-        <div class='line'>
-	        <div class='unit size1of3'>
+	        <div class='unit size1of3 gutter'>
 		        <h5>1/3</h5>
 	        	
 	        </div>
@@ -366,171 +392,167 @@
 		        <h5>1/3</h5>
 	        	
 	        </div>
-	        <div class='unit size1of3 last-unit'>
-		        <h5>1/3</h5>
-	        	
-	        </div>
         </div>
         <div class='line'>
-	        <div class='unit size1of3'>
+	        <div class='unit size1of3 gutter'>
 		        <h5>1/3</h5>
 		        
 	        </div>
-	        <div class='unit size2of3 last-unit'>
-		        <h5>2/3</h5>
-	        	
-        	</div>
-        </div>
-        <div class='line'>
 	        <div class='unit size2of3'>
 		        <h5>2/3</h5>
+	        	
+        	</div>
+        </div>
+        <div class='line'>
+	        <div class='unit size2of3 gutter'>
+		        <h5>2/3</h5>
 		        
         	</div>
-        	<div class='unit size1of3 last-unit'>
+        	<div class='unit size1of3'>
 		        <h5>1/3</h5>
 		        
         	</div>
         </div>
         <div class='line'>
-	        <div class='unit size1of2'>
+	        <div class='unit size1of2 gutter'>
 		        <h5>1/2</h5>
                 
             </div>
-	        <div class='unit size1of2 last-unit'>
+	        <div class='unit size1of2'>
 		        <h5>1/2</h5>
 		        
             </div>
         </div>
         <div class='line'>
-	        <div class='unit size1of1 last-unit'>
+	        <div class='unit size1of1'>
 		        <h5>1/1</h5>
 		        
             </div>
         </div>
         <div class='line'>
-            <div class='unit size1of6'>
+            <div class='unit size1of6 gutter'>
 	            <h5>1/6</h5>
 		        
             </div>
-            <div class='unit size1of6'>
+            <div class='unit size1of6 gutter'>
+		        <h5>1/6</h5>
+		        
+            </div>
+	        <div class='unit size1of6 gutter'>
+		        <h5>1/6</h5>
+		        
+	        </div>
+	        <div class='unit size1of6 gutter'>
+		        <h5>1/6</h5>
+		        
+	        </div>
+	        <div class='unit size1of6 gutter'>
 		        <h5>1/6</h5>
 		        
             </div>
 	        <div class='unit size1of6'>
-		        <h5>1/6</h5>
-		        
-	        </div>
-	        <div class='unit size1of6'>
-		        <h5>1/6</h5>
-		        
-	        </div>
-	        <div class='unit size1of6'>
-		        <h5>1/6</h5>
-		        
-            </div>
-	        <div class='unit size1of6 last-unit'>
 		        <h5>1/6</h5>
 		        
 	        </div>
         </div>
         <div class='line'>
-            <div class='unit size1of6'>
+            <div class='unit size1of6 gutter'>
 	            <h5>1/6</h5>
 		        
             </div>
-            <div class='unit size5of6 last-unit'>
+            <div class='unit size5of6'>
 		        <h5>5/6</h5>
 		        
             </div>
         </div>
         <div class='line'>
-            <div class='unit size1of6'>
+            <div class='unit size1of6 gutter'>
 	            <h5>1/6</h5>
 		        
             </div>
-            <div class='unit size1of3'>
+            <div class='unit size1of3 gutter'>
 		        <h5>2/6</h5>
 		        
             </div>
-	        <div class='unit size1of2 last-unit'>
+	        <div class='unit size1of2'>
 		        <h5>3/6</h5>
 		        
 	        </div>
         </div>
        <div class='line'>
-            <div class='unit size1of7'>
+            <div class='unit size1of7 gutter'>
 	            <h5>1/7</h5>
 		        
             </div>
-            <div class='unit size1of7'>
+            <div class='unit size1of7 gutter'>
 		        <h5>1/7</h5>
 		        
             </div>
-	        <div class='unit size1of7'>
+	        <div class='unit size1of7 gutter'>
 		        <h5>1/7</h5>
 		        
 	        </div>
-	        <div class='unit size1of7'>
+	        <div class='unit size1of7 gutter'>
 		        <h5>1/7</h5>
 		        
 	        </div>
+	        <div class='unit size1of7 gutter'>
+		        <h5>1/7</h5>
+		        
+            </div>
+            <div class='unit size1of7 gutter'>
+		        <h5>1/7</h5>
+		        
+            </div>
 	        <div class='unit size1of7'>
-		        <h5>1/7</h5>
-		        
-            </div>
-            <div class='unit size1of7'>
-		        <h5>1/7</h5>
-		        
-            </div>
-	        <div class='unit size1of7 last-unit'>
 		        <h5>1/7</h5>
 		        
 	        </div>
         </div>
        <div class='line'>
-            <div class='unit size1of7'>
+            <div class='unit size1of7 gutter'>
 	            <h5>1/7</h5>
+		        
+            </div>
+            <div class='unit size2of7 gutter'>
+		        <h5>2/7</h5>
+		        
+            </div>
+	        <div class='unit size3of7 gutter'>
+		        <h5>3/7</h5>
+		        
+	        </div>
+	        <div class='unit size1of7'>
+		        <h5>1/7</h5>
+		        
+	        </div>
+        </div>
+       <div class='line'>
+            <div class='unit size4of7 gutter'>
+	            <h5>4/7</h5>
+		        
+            </div>
+            <div class='unit size3of7'>
+		        <h5>3/7</h5>
+		        
+            </div>
+        </div>
+       <div class='line'>
+            <div class='unit size5of7 gutter'>
+	            <h5>5/7</h5>
 		        
             </div>
             <div class='unit size2of7'>
 		        <h5>2/7</h5>
 		        
             </div>
-	        <div class='unit size3of7'>
-		        <h5>3/7</h5>
-		        
-	        </div>
-	        <div class='unit size1of7 last-unit'>
-		        <h5>1/7</h5>
-		        
-	        </div>
         </div>
        <div class='line'>
-            <div class='unit size4of7'>
-	            <h5>4/7</h5>
-		        
-            </div>
-            <div class='unit size3of7 last-unit'>
-		        <h5>3/7</h5>
-		        
-            </div>
-        </div>
-       <div class='line'>
-            <div class='unit size5of7'>
-	            <h5>5/7</h5>
-		        
-            </div>
-            <div class='unit size2of7 last-unit'>
-		        <h5>2/7</h5>
-		        
-            </div>
-        </div>
-       <div class='line'>
-            <div class='unit size6of7'>
+            <div class='unit size6of7 gutter'>
 	            <h5>6/7</h5>
 		        
             </div>
-            <div class='unit size1of7 last-unit'>
+            <div class='unit size1of7'>
 		        <h5>1/7</h5>
 		        
             </div>
@@ -543,7 +565,7 @@
             </header>
         </div>
         <div class='line'>
-            <div class='unit size1of3'>
+            <div class='unit size1of3 gutter'>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor lacinia turpis nec pulvinar. Duis consequat tincidunt odio, non molestie purus tempus eget. Aliquam nec nisi non lacus auctor semper nec ac felis. Suspendisse potenti. Phasellus nisl tellus, commodo ut pretium eu, commodo eget elit. Vivamus sed tellus vel libero varius commodo in in libero. Maecenas commodo nulla vitae velit tincidunt eu dictum lectus mattis. Mauris eros nisi, mattis ac rhoncus non, pretium et est. In tincidunt dolor et lacus porta ut congue urna fringilla. Nunc pellentesque, massa ac vestibulum placerat, felis purus aliquam nisi, a mattis lacus risus vel neque.</p>
                 <h1>Lorem</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor lacinia turpis nec pulvinar. Duis consequat tincidunt odio, non molestie purus tempus eget. Aliquam nec nisi non lacus auctor semper nec ac felis. Suspendisse potenti. Phasellus nisl tellus, commodo ut pretium eu, commodo eget elit. Vivamus sed tellus vel libero varius commodo in in libero. Maecenas commodo nulla vitae velit tincidunt eu dictum lectus mattis. Mauris eros nisi, mattis ac rhoncus non, pretium et est. In tincidunt dolor et lacus porta ut congue urna fringilla. Nunc pellentesque, massa ac vestibulum placerat, felis purus aliquam nisi, a mattis lacus risus vel neque.</p>
@@ -558,9 +580,10 @@
                 <h6>Lorem</h6>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor lacinia turpis nec pulvinar. Duis consequat tincidunt odio, non molestie purus tempus eget. Aliquam nec nisi non lacus auctor semper nec ac felis. Suspendisse potenti. Phasellus nisl tellus, commodo ut pretium eu, commodo eget elit. Vivamus sed tellus vel libero varius commodo in in libero. Maecenas commodo nulla vitae velit tincidunt eu dictum lectus mattis. Mauris eros nisi, mattis ac rhoncus non, pretium et est. In tincidunt dolor et lacus porta ut congue urna fringilla. Nunc pellentesque, massa ac vestibulum placerat, felis purus aliquam nisi, a mattis lacus risus vel neque.</p>
             </div>
-            <div class='unit size1of3'>
+            <div class='unit size1of3 gutter'>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor lacinia turpis nec pulvinar. Duis consequat tincidunt odio, non molestie purus tempus eget. Aliquam nec nisi non lacus auctor semper nec ac felis. Suspendisse potenti. Phasellus nisl tellus, commodo ut pretium eu, commodo eget elit. Vivamus sed tellus vel libero varius commodo in in libero. Maecenas commodo nulla vitae velit tincidunt eu dictum lectus mattis. Mauris eros nisi, mattis ac rhoncus non, pretium et est. In tincidunt dolor et lacus porta ut congue urna fringilla. Nunc pellentesque, massa ac vestibulum placerat, felis purus aliquam nisi, a mattis lacus risus vel neque.</p>
 
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor lacinia turpis nec pulvinar. Duis consequat tincidunt odio, non molestie purus tempus eget. Aliquam nec nisi non lacus auctor semper nec ac felis. Suspendisse potenti. Phasellus nisl tellus, commodo ut pretium eu, commodo eget elit. Vivamus sed tellus vel libero varius commodo in in libero. Maecenas commodo nulla vitae velit tincidunt eu dictum lectus mattis. Mauris eros nisi, mattis ac rhoncus non, pretium et est. In tincidunt dolor et lacus porta ut congue urna fringilla. Nunc pellentesque, massa ac vestibulum placerat, felis purus aliquam nisi, a mattis lacus risus vel neque.</p>
                 <ul>
 				    <li>fermentum dui</li>
 					<li>commodo in in</li>
@@ -648,8 +671,9 @@
 
                 <p><small>Nunc ultricies leo ac odio pellentesque eu aliquam ante dignissim. Nam eget velit sit amet enim egestas posuere. Phasellus et scelerisque libero. Sed pretium odio at metus venenatis quis euismod diam vehicula. Mauris hendrerit feugiat dolor vehicula pretium. Suspendisse viverra dignissim tempus. Aliquam volutpat, quam in pulvinar molestie, dui ante pulvinar lacus, sed interdum felis nisl eu nunc. Nunc ultricies leo ac odio pellentesque eu aliquam ante dignissim. Nam eget velit sit amet enim egestas posuere. Phasellus et scelerisque libero. Sed pretium odio at metus venenatis quis euismod diam vehicula. Mauris hendrerit feugiat dolor vehicula pretium. Suspendisse viverra dignissim tempus. Aliquam volutpat, quam in pulvinar molestie, dui ante pulvinar lacus, sed interdum felis nisl eu nunc.</small></p>
                 
-                <p<small>Aenean rhoncus bibendum bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sollicitudin ultricies magna, in tempus erat imperdiet vitae. Nam justo dolor, vehicula vel laoreet a, ultrices in mi. Proin a nisi nec quam pretium sodales ut gravida magna. Integer adipiscing sollicitudin risus, a varius felis dictum at. Nullam sodales felis vitae erat pretium dapibus. Maecenas bibendum dolor non augue sollicitudin eleifend. Donec interdum faucibus est. Morbi dictum arcu ut nisl dapibus in lobortis diam aliquet. Nulla facilisi. Vivamus viverra, velit eu blandit euismod, mi augue tincidunt felis, vel dictum massa metus quis ligula.</small></p>  
-            </div>
+                <p<small>Aenean rhoncus bibendum bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sollicitudin ultricies magna, in tempus erat imperdiet vitae. Nam justo dolor, vehicula vel laoreet a, ultrices in mi. Proin a nisi nec quam pretium sodales ut gravida magna. Integer adipiscing sollicitudin risus, a varius felis dictum at. Nullam sodales felis vitae erat pretium dapibus. Maecenas bibendum dolor non augue sollicitudin eleifend. Donec interdum faucibus est. Morbi dictum arcu ut nisl dapibus in lobortis diam aliquet. Nulla facilisi. Vivamus viverra, velit eu blandit euismod, mi augue tincidunt felis, vel dictum massa metus quis ligula.</small></p>
+
+      </div>
         </div>
     </div>
     <div class='line form-example '>

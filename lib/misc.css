@@ -1,0 +1,16 @@
+a {
+    padding: 0;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active, a:focus {
+    position: relative;
+    top:1px;
+}
