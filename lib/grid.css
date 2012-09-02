@@ -5,6 +5,8 @@
 .container {
     width: 18.75em;  /* 300px = 18.75em, 1024px = 64em */
     margin: 0 auto;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
