@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    font: 16px/1.618 'OpenSans', Corbel, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', 'Bitstream Vera Sans', 'Liberation Sans', Verdana, sans-serif;
+    font: 16px/1.618 'OpenSans', sans-serif;
     font-size: 1.6rem;
     color: #222;
 }
@@ -16,14 +16,18 @@ p:nth-of-type(1) {
     margin: 0 0 1.618em 0;
 }
 
+p:last-child {
+    margin-bottom: 0;
+}
+
 small {
-    font-size: 12px
+    font-size: 12px;
     font-size: 1.2rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Palatino Linotype', Palatino, 'URW Palladio L', 'Book Antiqua', Baskerville, 'Bookman Old Style', 'Bitstream Charter', 'Nimbus Roman No9 L', Garamond, 'New Century Schoolbook', 'Century Schoolbook', 'Century Schoolbook L', Georgia, serif;
-    font-weight: bold;
+    font-family:  Georgia, 'Palatino Linotype', Palatino, 'URW Palladio L', 'Book Antiqua', Baskerville, 'Bookman Old Style', 'Bitstream Charter', 'Nimbus Roman No9 L', Garamond, 'New Century Schoolbook', 'Century Schoolbook', 'Century Schoolbook L', serif;
+    font-weight: normal;
     margin: 0;
 }
  
