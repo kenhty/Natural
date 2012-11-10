@@ -1,0 +1,24 @@
+.top-nav-bar {
+	background-color: #222222;
+	padding: 0.809em 0;
+}
+
+.nav-typography, .nav-grid, .nav-form {
+	float: left;
+	margin-right: 1.618em;
+}
+
+.top-nav-list a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.site-promo {
+	padding: 4.854em 0;
+	text-align: center;
+	background-color: #ffffff;
+}
+
+.first-line-pitch {
+	margin-bottom: 1.618em;
+}
