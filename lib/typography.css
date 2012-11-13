@@ -1,15 +1,11 @@
-html {
-    font-size: 62.5%;
-}
-
 body {
     font: 16px/1.618 'OpenSans', sans-serif;
-    font-size: 1.6rem;
-    color: #222;
+	font-size: 1rem;
+    color: #333333;
 }
 
 p {
-    margin: 1.618em 0;
+	margin: 1.618em 0;
 }
 
 p:nth-of-type(1) {
@@ -21,8 +17,8 @@ p:last-child {
 }
 
 small {
-    font-size: 12px;
-    font-size: 1.2rem;
+    /*font-size: 12px;*/
+    font-size: 0.75rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -32,44 +28,44 @@ h1, h2, h3, h4, h5, h6 {
 }
  
 h1 {
-    font-size: 72px;
-    font-size: 7.2rem;
-    /* font-size: 4.5em; */
-    line-height: 1.0787;
+    /*font-size: 72px;*/
+    /*font-size: 7.2rem;*/
+    font-size: 4.5rem;
+	line-height: 1.0787;
 }
 
 h2 {
     font-size: 55px;
-    font-size: 5.5rem;
-    /* font-size: 3.4375em; */
+    /*font-size: 5.5rem;*/
+    font-size: 3.4375rem;
     line-height: 1.4121;
 }
 
 h3 {
     font-size: 44.5px;
-    font-size: 4.45rem;
-    /* font-size: 2.78125em; */
+    /*font-size: 4.45rem;*/
+    font-size: 2.78125rem;
     line-height: 1.1635;
 }
 
 h4 {
     font-size: 34px;
-    font-size: 3.4rem;
-    /* font-size: 2.125em; */
+    /*font-size: 3.4rem;*/
+    font-size: 2.125rem;
     line-height: 1.5228;
 }
 
 h5 {
     font-size: 27.5px;
-    font-size: 2.75rem;
-    /* font-size: 1.71875em; */
+    /*font-size: 2.75rem;*/
+    font-size: 1.71875rem;
     line-height: 1.8828;
 }
 
 h6 {
     font-size: 21px;
-    font-size: 2.1rem;
-    /* font-size: 1.3125em; */
+    /*font-size: 2.1rem;*/
+    font-size: 1.3125rem;
     line-height: 1.2328;
 }
 
@@ -244,10 +240,3 @@ pre {
 pre, code, kbd, samp {
 	font-family: Consolas,"Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;	
 }
-
-
-
-
-
-b, strong {font-weight: bold;}
-i, em {font-style: italic;}

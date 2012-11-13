@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.container, .line {
+.container, .line, .unit:last-child {
     overflow: hidden;
 }
 
@@ -12,12 +12,23 @@
     width: 18.75em;  /* 300px = 18.75em, 1024px = 64em */
     margin: 0 auto;
     display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
     display: flex;
+	-ms-justify-content: space-between;
+	-webkit-justify-content: space-between;
+	-moz-justify-content: space-between;
+    justify-content: space-between;
 }
 
 .unit {
-    float: left;
-} 
+    float: left; /* possible leacy: remove if flexbox is fully support */
+}
+
+.gutter {
+	width: -webkit-calc(100% - 1.618em);
+	width: calc(100% - 1.618em);
+}
 
 .size1of2 {width: 50%;}
 

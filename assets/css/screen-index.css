@@ -1,17 +1,4 @@
-.top-nav-bar {
-	background-color: #222222;
-	padding: 0.4045em 0;
-}
-
-.nav-typography, .nav-grid, .nav-form {
-	float: left;
-	margin-right: 1.618em;
-}
-
-.top-nav-list a {
-	color: #ffffff;
-	text-decoration: none;
-}
+@import url('top-nav-bar.css');
 
 .site-promo {
 	padding: 4.854em 0;
@@ -19,6 +6,6 @@
 	background-color: #ffffff;
 }
 
-.first-line-pitch {
+.first-line-pitch, .second-line-pitch {
 	margin-bottom: 1.618em;
 }
