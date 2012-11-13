@@ -1,0 +1,19 @@
+.top-nav-bar {
+	color: #ffffff;
+	background-color: #333333;
+}
+
+.nav-home, .nav-typography, .nav-grid, .nav-form {
+	float: left;
+	padding: 0.4045em 0.809em;
+}
+
+.selected {
+	color: #333333;
+	background-color: #ffffff;
+}
+
+.top-nav-list a {
+	text-decoration: none;
+	color: #ffffff;
+}
