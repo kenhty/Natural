@@ -16,57 +16,57 @@ p:last-child {
     margin-bottom: 0;
 }
 
-small {
-    /*font-size: 12px;*/
-    font-size: 0.75rem;
-}
-
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .h0, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family:  Georgia, 'Palatino Linotype', Palatino, 'URW Palladio L', 'Book Antiqua', Baskerville, 'Bookman Old Style', 'Bitstream Charter', 'Nimbus Roman No9 L', Garamond, 'New Century Schoolbook', 'Century Schoolbook', 'Century Schoolbook L', serif;
     font-weight: normal;
     margin: 0;
 }
- 
-h1 {
-    /*font-size: 72px;*/
-    /*font-size: 7.2rem;*/
+
+.h0 {
+	font-size: 89px;
+	font-size: 5.5625rem;
+	line-height: 1.1635;
+}
+
+h1, .h1 {
+    font-size: 72px;
     font-size: 4.5rem;
 	line-height: 1.0787;
 }
 
-h2 {
+h2, .h2 {
     font-size: 55px;
-    /*font-size: 5.5rem;*/
     font-size: 3.4375rem;
     line-height: 1.4121;
 }
 
-h3 {
+h3, .h3 {
     font-size: 44.5px;
-    /*font-size: 4.45rem;*/
     font-size: 2.78125rem;
     line-height: 1.1635;
 }
 
-h4 {
+h4, .h4 {
     font-size: 34px;
-    /*font-size: 3.4rem;*/
     font-size: 2.125rem;
     line-height: 1.5228;
 }
 
-h5 {
+h5, .h5 {
     font-size: 27.5px;
-    /*font-size: 2.75rem;*/
     font-size: 1.71875rem;
     line-height: 1.8828;
 }
 
-h6 {
+h6, .h6 {
     font-size: 21px;
-    /*font-size: 2.1rem;*/
     font-size: 1.3125rem;
     line-height: 1.2328;
+}
+
+small {
+    font-size: 13px;
+    font-size: 0.8125rem;
 }
 
 @font-face {

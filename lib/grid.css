@@ -8,6 +8,10 @@
     overflow: hidden;
 }
 
+.line {
+	/*margin-left: -1.618em;*/
+}
+
 .container {
     width: 18.75em;  /* 300px = 18.75em, 1024px = 64em */
     margin: 0 auto;
@@ -22,18 +26,32 @@
 }
 
 .unit {
-    float: left; /* possible leacy: remove if flexbox is fully support */
-}
-
-.gutter {
-	width: -webkit-calc(100% - 1.618em);
-	width: calc(100% - 1.618em);
+    /*float: left;*/ /* possible leacy: remove if flexbox is fully support */
+	/*padding-left: 1.618em;*/
 }
 
 .size1of2 {width: 50%;}
 
+.gutter .size1of2 {
+	width: -webkit-calc((100% - 1.618em) / 2);
+	width: -moz-calc((100% - 1.618em) / 2);
+	width: calc((100% - 1.618em) / 2);
+}
+
 .size1of3 {width: 33.3333%;}
 .size2of3 {width: 66.6667%;}
+
+.gutter .size1of3 {
+	width: -webkit-calc((100% - 2 * 1.618em) / 3);
+	width: -moz-calc((100% - 2 * 1.618em) / 3);
+	width: calc((100% - 2 * 1.618em) / 3);
+}
+
+.gutter .size2of3 {
+	width: -webkit-calc(((100% - 2 * 1.618em) / 3) * 2 + 1.618em);
+	width: -moz-calc(((100% - 2 * 1.618em) / 3) * 2 + 1.618em);
+	width: calc(((100% - 2 * 1.618em) / 3) * 2 + 1.618em);
+}
 
 .size1of4 {width: 25%;}
 .size3of4 {width: 75%;}

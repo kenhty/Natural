@@ -1,9 +1,13 @@
 @import url('top-nav-bar.css');
 
 .site-promo {
-	padding: 4.854em 0;
+	padding: 4.854em 0 1.618em 0;
 	text-align: center;
 	background-color: #ffffff;
+}
+
+.download-button {
+	margin-top: 1.618em;
 }
 
 .first-line-pitch, .second-line-pitch {
