@@ -1,4 +1,4 @@
-Best view in Firefox with flexbox enable. Webkit browser need to fix a bug in order to view the perfect vertical rhythm. 
+Best view in Firefox with flexbox enabled. Webkit browser need to fix a bug in order to view the perfect vertical rhythm. 
 
 Additional polyfill need to make older browser to work.
 
