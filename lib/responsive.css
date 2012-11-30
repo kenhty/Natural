@@ -41,18 +41,11 @@
 
 }
 */
-@media only screen and (min-width: 46.75em) and (max-width: 61.0625em) { /* 748px = 46.75em 977px = 61.0625em */
-    .container {width: 46.75em;} /* 748px  */
-}
 
-@media only screen and (min-width: 61.125em) and (max-width: 76.0625em) { /* 978px = 61.125em 1217px = 76.0625em */
-    .container {width: 61.125em;} /* 978px */
-}
+@import url('viewpoint/748.css') screen and (min-width: 46.75em) and (max-width: 61.0625em); /* 748px = 46.75em 977px = 61.0625em */
 
-@media only screen and (min-width: 76.125em) and (max-width: 87.9375em) { /* 1218px = 76.125em 1407px = 87.9375em */
-    .container {width: 76.125em;} /* 1218px  */
-}
+@import url('viewpoint/978.css') screen and (min-width: 61.125em) and (max-width: 76.0625em); /* 978px = 61.125em 1217px = 76.0625em */
 
-@media only screen and (min-width: 88em) { /* 1408px = 88em */
-    .container {width: 86.125em;} /* 1378px */
-}
+@import url('viewpoint/1218.css') screen and (min-width: 76.125em) and (max-width: 87.9375em); /* 1218px = 76.125em 1407px = 87.9375em */
+
+@import url('viewpoint/1408.css') screen and (min-width: 88em); /* 1408px = 88em */
