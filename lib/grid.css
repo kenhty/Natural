@@ -9,7 +9,14 @@
 }
 
 .line {
-	/*margin-left: -1.618em;*/
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+    display: flex;
+	-ms-justify-content: space-between;
+	-webkit-justify-content: space-between;
+	-moz-justify-content: space-between;
+    justify-content: space-between;
 }
 
 .container {
@@ -26,8 +33,7 @@
 }
 
 .unit {
-    /*float: left;*/ /* possible leacy: remove if flexbox is fully support */
-	/*padding-left: 1.618em;*/
+    float: left; /* possible leacy: remove if flexbox is fully support */
 }
 
 .size1of2 {width: 50%;}
