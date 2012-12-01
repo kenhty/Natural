@@ -1,6 +1,6 @@
-Best view in Firefox with flexbox enable. Webkit browser need to fix a bug in order to view the perfect vertical rhythm. 
+Best view in Firefox with flexbox enabled. Webkit browser need to fix a bug in order to view the perfect vertical rhythm. 
 
-Additional polyfill need to make older browser to work.
+Additional polyfills need to make older browsers to work.
 
 ## Features:
 
@@ -9,6 +9,7 @@ Additional polyfill need to make older browser to work.
 * 1 to 12 column grid for countless combinations
 * Combine OOCSS grid with CSS3 flex box
 * Fibonacci sequence in h1 h2 h3 h4 h5 h6 and other helper like .h0 - .h6 etc
+* Use 1em or 16px for readable text
 * Golden ratio vertical rhythm to achieve perfect harmony
 * Use normalize.css
 * Build the font stacks using comprehensive survey (http://www.codestyle.org/css/font-family/index.shtml) 
