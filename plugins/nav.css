@@ -1,0 +1,18 @@
+.hori-navbar {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+    display: flex;
+	list-style: none;
+	padding: 0;
+}
+
+.hori-navbar-item {
+	padding: 0.4045em 0.809em;
+}
+
+.vert-navbar {
+}
+
+.vert-navbar-item {
+}

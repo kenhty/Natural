@@ -42,10 +42,16 @@
 }
 */
 
-@import url('viewpoint/748.css') screen and (min-width: 46.75em) and (max-width: 61.0625em); /* 748px = 46.75em 977px = 61.0625em */
+@import url('viewpoint/480.css') screen and (min-width: 30em) and (max-width: 46.6875em); /* 480px = 30em,747px = 46.6875em */
 
-@import url('viewpoint/978.css') screen and (min-width: 61.125em) and (max-width: 76.0625em); /* 978px = 61.125em 1217px = 76.0625em */
+@import url('viewpoint/748.css') screen and (min-width: 46.75em) and (max-width: 61.0625em); /* 748px = 46.75em, 977px = 61.0625em */
 
-@import url('viewpoint/1218.css') screen and (min-width: 76.125em) and (max-width: 87.9375em); /* 1218px = 76.125em 1407px = 87.9375em */
+@import url('viewpoint/978.css') screen and (min-width: 61.125em) and (max-width: 76.0625em); /* 978px = 61.125em, 1217px = 76.0625em */
 
-@import url('viewpoint/1408.css') screen and (min-width: 88em); /* 1408px = 88em */
+@import url('viewpoint/1218.css') screen and (min-width: 76.125em) and (max-width: 87.9375em);
+
+@import url('viewpoint/1378.css') screen and (min-width: 87.9375em);
+
+/*@import url('viewpoint/1218.css') screen and (min-width: 76.125em) and (max-width: 87.9375em);*/ /* 1218px = 76.125em, 1407px = 87.9375em */
+
+/*@import url('viewpoint/1408.css') screen and (min-width: 88em);*/ /* 1408px = 88em */

@@ -8,23 +8,24 @@
 	<meta name='author' content='Tat-Yuen Hui'>
 	<meta name='viewport' content='width=device-width'>
 	<link rel='stylesheet' type='text/css' href='natural.css'>
+	<link rel='stylesheet' type='text/css' href='plugins/nav.css'>
 	<link rel='stylesheet' type='text/css' href='assets/css/screen-typography.css'>
 </head>
 <body>
-	<nav class='line top-nav-bar'>
-		<div class='container'>
+	<nav class='block top-navbar'>
+		<div class='container center'>
 			<div class='unit size1of1'>
-				<ul class='top-nav-list'>
-					<li class='nav-home'><a href='index.htm'>Home</a></li>
-					<li class='nav-typography selected'>Typography</li>
-					<li class='nav-grid'><a href='grid.htm'>Grid</a></li>
-					<li class='nav-form'><a href='form.htm'>Form</a></li>
+				<ul class='hori-navbar top-nav-list'>
+					<li class='hori-navbar-item nav-home'><a href='index.htm'>Home</a></li>
+					<li class='hori-navbar-item nav-typography selected'>Typography</li>
+					<li class='hori-navbar-item nav-grid'><a href='grid.htm'>Grid</a></li>
+					<li class='hori-navbar-item nav-form'><a href='form.htm'>Form</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
-    <div class='line gutter typography-example'>
-		<div class='container'>
+    <div class='block gutter typography-example'>
+		<div class='container center'>
 			<div class='unit size1of3'>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor lacinia turpis nec pulvinar. Duis consequat tincidunt odio, non molestie purus tempus eget. Aliquam nec nisi non lacus auctor semper nec ac felis. Suspendisse potenti. Phasellus nisl tellus, commodo ut pretium eu, commodo eget elit. Vivamus sed tellus vel libero varius commodo in in libero. Maecenas commodo nulla vitae velit tincidunt eu dictum lectus mattis. Mauris eros nisi, mattis ac rhoncus non, pretium et est. In tincidunt dolor et lacus porta ut congue urna fringilla. Nunc pellentesque, massa ac vestibulum placerat, felis purus aliquam nisi, a mattis lacus risus vel neque.</p>
 				<h1>Lorem</h1>
@@ -123,69 +124,9 @@
                 <h3 class='h5'>Lorem</h3>
                 <h3 class='h6'>Lorem</h3>
                 <p><small>Nunc ultricies leo ac odio pellentesque eu aliquam ante dignissim. Nam eget velit sit amet enim egestas posuere. Phasellus et scelerisque libero. Sed pretium odio at metus venenatis quis euismod diam vehicula. Mauris hendrerit feugiat dolor vehicula pretium. Suspendisse viverra dignissim tempus. Aliquam volutpat, quam in pulvinar molestie, dui ante pulvinar lacus, sed interdum felis nisl eu nunc. Nunc ultricies leo ac odio pellentesque eu aliquam ante dignissim. Nam eget velit sit amet enim egestas posuere. Phasellus et scelerisque libero. Sed pretium odio at metus venenatis quis euismod diam vehicula. Mauris hendrerit feugiat dolor vehicula pretium. Suspendisse viverra dignissim tempus. Aliquam volutpat, quam in pulvinar molestie, dui ante pulvinar lacus, sed interdum felis nisl eu nunc.</small></p>
-                <p><small>Aenean rhoncus bibendum bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sollicitudin ultricies magna, in tempus erat imperdiet vitae. Nam justo dolor, vehicula vel laoreet a, ultrices in mi. Proin a nisi nec quam pretium sodales ut gravida magna. Integer adipiscing sollicitudin risus, a varius felis dictum at. Nullam sodales felis vitae erat pretium dapibus. Maecenas bibendum dolor non augue sollicitudin eleifend. Donec interdum faucibus est. Morbi dictum arcu ut nisl dapibus in lobortis diam aliquet. Nulla facilisi. Vivamus viverra, velit eu blandit euismod, mi augue tincidunt felis, vel dictum massa metus quis ligula.</small></p>	
+                <p><small>Aenean rhoncus bibendum bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sollicitudin ultricies magna, in tempus erat imperdiet vitae. Nam justo dolor, vehicula vel laoreet a, ultrices in mi. Proin a nisi nec quam pretium sodales ut gravida magna. Integer adipiscing sollicitudin risus, a varius felis dictum at. Nullam sodales felis vitae erat pretium dapibus. Maecenas bibendum dolor non augue sollicitudin eleifend. Donec interdum faucibus est. Morbi dictum arcu ut nisl dapibus in lobortis diam aliquet. Nulla facilisi. Vivamus viverra, velit eu blandit euismod, mi augue tincidunt felis, vel dictum massa metus quis ligula.</small></p>
 			</div>
         </div>
     </div>
 </body>
 </html>
-	
-<!--
-    <div class='line form-example '>
-        <div class='container container-padding'>
-            <div class='line'>
-                <header class='unit size1of1'>
-                    <h2>Form</h2>
-                </header>
-            </div>
-            <div class='line'>
-                <div class='unit size2of3'>
-                        <header>
-                            <h4>Mike and Jenny's Wedding RSVP</h4>
-                            <div>You're invited to Mike and Jenny's Wedding Reception on June 6, 2008!</div>
-                        </header>
-                    <form id='form57' name='form57' class='wufoo page1' autocomplete='off' enctype='multipart/form-data' method='post' novalidate action='https://examples.wufoo.com/forms/s7p7r3/#public'>
-		      <fieldset>
-		      <legend>Example form</legend>           
-                        <div class='line h-gutter'>
-                            <div class='unit size1of2'>                       
-                                <label for='Field125'>
-                                    <strong>First name</strong><sup>*</sup>
-                                </label>
-                                <input id='Field125' name='Field125' type='text' value='' size='8' tabindex='1' onkeyup='handleInput(this);' onchange='handleInput(this);' required> 
-                            </div>
-
-                            <div class='unit size1of2 last-unit'>
-                                <label class='desc' id='title125' for='Field125'>
-                                    <strong>Last name</strong><sup>*</sup>
-                                </label>                           
-                                <input id='Field126' name='Field126' type='text' value='' size='14' tabindex='2' onkeyup='handleInput(this);' onchange='handleInput(this);' required>    
-                            </div>
-                        </div>
-                        <div class='line h-gutter'>
-                            <div class='unit size1of2'>
-                                <label class='desc' id='title119' for='Field119'>
-                                    <strong>Are you coming?</strong><sup>*</sup>
-                                </label>
-                                <div>
-                                    <select id='Field119' name='Field119' class='field select medium' onclick='handleInput(this);' onkeyup='handleInput(this);' tabindex='3' > 
-                                        <option value='' selected='selected'></option>
-                                        <option value='Yes'>Yes</option>
-                                        <option value='No'>No</option>
-                                        <option value='Maybe'>Maybe</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class='unit size1of2 last-unit'>
-                            </div>
-                        </div>
-			</fieldset>
-                    </form>                  
-                </div>
-                <div class='unit size1of3 last-unit'>
-                    <p>Suspendisse venenatis faucibus tempor. Proin pretium rhoncus lorem, sit amet consequat nibh vehicula et. Aliquam erat arcu, ultricies egestas fermentum in, adipiscing porta leo. Nullam vitae felis dolor. Donec diam magna, egestas eget euismod non, ultricies eu magna. Donec sit amet diam dui. Curabitur vitae sem nec leo sollicitudin suscipit et a risus. Curabitur tincidunt orci nec urna fringilla iaculis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent consequat lobortis erat, luctus congue libero condimentum at. Praesent sit amet neque at urna rutrum volutpat. Nunc turpis magna, vestibulum auctor fermentum nec, tempus quis velit. Vivamus ac nunc mi. In accumsan neque at nisi feugiat posuere. Nullam eget sapien massa. Sed vitae lorem justo. Nunc ultricies leo ac odio pellentesque eu aliquam ante dignissim. Nam eget velit sit amet enim egestas posuere. Phasellus et scelerisque libero. Sed pretium odio at metus venenatis quis euismod diam vehicula. Mauris hendrerit feugiat dolor vehicula pretium. Suspendisse viverra dignissim tempus. Aliquam volutpat, quam in pulvinar molestie, dui ante pulvinar lacus, sed interdum felis nisl eu nunc. Nunc ultricies leo ac odio pellentesque eu aliquam ante dignissim. Nam eget velit sit amet enim egestas posuere. Phasellus et scelerisque libero. Sed pretium odio at metus venenatis quis euismod diam vehicula. Mauris hendrerit feugiat dolor vehicula pretium. Suspendisse viverra dignissim tempus. Aliquam volutpat, quam in pulvinar molestie, dui ante pulvinar lacus, sed interdum felis nisl eu nunc. Aenean rhoncus bibendum bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sollicitudin ultricies magna, in tempus erat imperdiet vitae. Nam justo dolor, vehicula vel laoreet a, ultrices in mi. Proin a nisi nec quam pretium sodales ut gravida magna. Integer adipiscing sollicitudin risus, a varius felis dictum at. Nullam sodales felis vitae erat pretium dapibus. Maecenas bibendum dolor non augue sollicitudin eleifend. Donec interdum faucibus est. Morbi dictum arcu ut nisl dapibus in lobortis diam aliquet. Nulla facilisi. Vivamus viverra, velit eu blandit euismod, mi augue tincidunt felis, vel dictum massa metus quis ligula.</p>  
-                </div>
-            </div>
-        </div>
-    </div>
-	-->

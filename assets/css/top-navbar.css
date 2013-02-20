@@ -1,11 +1,6 @@
-.top-nav-bar {
+.top-navbar {
 	color: #ffffff;
 	background-color: #333333;
-}
-
-.nav-home, .nav-typography, .nav-grid, .nav-form {
-	float: left;
-	padding: 0.4045em 0.809em;
 }
 
 .selected {
