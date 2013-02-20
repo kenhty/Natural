@@ -19,77 +19,77 @@ Additional polyfills need to make older browsers to work.
 
 ### Simple flexible grid
 
-<nav class='block'>
-	<div class='unit size1of2'>
-		<p class='text-centering'>1/2</p>
-	</div>
-	<div class='unit size1of2'>
-		<p class='text-centering'>1/2</p>
-	</div>
-</nav>
+	<nav class='block'>
+		<div class='unit size1of2'>
+			<p class='text-centering'>1/2</p>
+		</div>
+		<div class='unit size1of2'>
+			<p class='text-centering'>1/2</p>
+		</div>
+	</nav>
 
 ### Simple flexible grid with container
 
-<nav class='block'>
-	<div class='container center'>
-		<div class='unit size1of2'>
-			<p class='text-centering'>1/2</p>
+	<nav class='block'>
+		<div class='container center'>
+			<div class='unit size1of2'>
+				<p class='text-centering'>1/2</p>
+			</div>
+			<div class='unit size1of2'>
+				<p class='text-centering'>1/2</p>
+			</div>
 		</div>
-		<div class='unit size1of2'>
-			<p class='text-centering'>1/2</p>
-		</div>
-	</div>
-</nav>
+	</nav>
 
 ### Simple flexible grid with gutter
 
-<nav class='block gutter'>
-	<div class='container center'>
-		<div class='unit size1of2'>
-			<p class='text-centering'>1/2</p>
+	<nav class='block gutter'>
+		<div class='container center'>
+			<div class='unit size1of2'>
+				<p class='text-centering'>1/2</p>
+			</div>
+			<div class='unit size1of2'>
+				<p class='text-centering'>1/2</p>
+			</div>
 		</div>
-		<div class='unit size1of2'>
-			<p class='text-centering'>1/2</p>
-		</div>
-	</div>
-</nav>
+	</nav>
 
 ### Simple flexible grid with nesting
 
-<nav class='block'>
-	<div class='container center'>
-		<div class='unit size1of2'>
-			<p class='text-centering'>1/2</p>
-		</div>
-		<div class='unit size1of2'>
-			<div class='block'>
-				<div class='unit size1of2'>
-					<p class='text-centering'>1/2</p>
-				</div>
-				<div class='unit size1of2'>
-					<p class='text-centering'>1/2</p>
+	<nav class='block'>
+		<div class='container center'>
+			<div class='unit size1of2'>
+				<p class='text-centering'>1/2</p>
+			</div>
+			<div class='unit size1of2'>
+				<div class='block'>
+					<div class='unit size1of2'>
+						<p class='text-centering'>1/2</p>
+					</div>
+					<div class='unit size1of2'>
+						<p class='text-centering'>1/2</p>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</nav>
+	</nav>
 
 ### Mix block with gutter and block without gutter
 
-<nav class='block gutter'>
-	<div class='container center'>
-		<div class='unit size1of2'>
-			<p class='text-centering'>1/2</p>
-		</div>
-		<div class='unit size1of2'>
-			<div class='block'>
-				<div class='unit size1of2'>
-					<p class='text-centering'>1/2</p>
-				</div>
-				<div class='unit size1of2'>
-					<p class='text-centering'>1/2</p>
+	<nav class='block gutter'>
+		<div class='container center'>
+			<div class='unit size1of2'>
+				<p class='text-centering'>1/2</p>
+			</div>
+			<div class='unit size1of2'>
+				<div class='block'>
+					<div class='unit size1of2'>
+						<p class='text-centering'>1/2</p>
+					</div>
+					<div class='unit size1of2'>
+						<p class='text-centering'>1/2</p>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</nav>
+	</nav>
