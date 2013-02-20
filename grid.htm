@@ -1,403 +1,982 @@
 <!doctype html>
 <head>
-  <meta charset='utf-8'>
-  <title>Natural: A state-of-the-art front-end framework</title>
-  <meta name='keywords' content='framework, css framework, html5, css3, responsive'>
-  <meta name='description' content='A state-of-the-art front-end framework'>
-  <meta name='author' content='Tat-Yuen Hui'>
-  <meta name='viewport' content='width=device-width'>
-  <link rel='stylesheet' type='text/css' href='natural.css'>
-  <style type='text/css'>
-    .unit h5 {
-      color: white;
-      background-color: #333;
-      margin-bottom: 1.618em;
-      text-align: center;
-    }
-  </style> 
+	<meta charset='utf-8'>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Natural: A cutting-edge CSS framework</title>
+	<meta name='keywords' content='framework, css framework, html5, css3, responsive'>
+	<meta name='description' content='A cutting-edge CSS framework'>
+	<meta name='author' content='Tat-Yuen Hui'>
+	<meta name='viewport' content='width=device-width'>
+	<link rel='stylesheet' type='text/css' href='natural.css'>
+	<link rel='stylesheet' type='text/css' href='plugins/nav.css'>
+	<link rel='stylesheet' type='text/css' href='assets/css/screen-grid.css'>
 </head>
 <body>
-<div class='line'>
-  <div class='container'>
-    <div class='line'>
-      <header class='unit size1of1'>
-	<h2>Grid</h2>
-      </header>
-    </div>
-    <div class='line'>
-      <div class='unit size1of5 gutter'>
-	<h5>1/5</h5>
-      </div>
-      <div class='unit size1of5 gutter'>
-	<h5>1/5</h5>
-      </div>
-      <div class='unit size1of5 gutter'>
-	<h5>1/5</h5>
-      </div>
-      <div class='unit size1of5 gutter'>
-	<h5>1/5</h5>
-      </div>
-      <div class='unit size1of5 gutter'>
-	<h5>1/5</h5>
-      </div>
-    </div>
-    <div class='line'>
-      <div class='unit size1of5 gutter'>
-	<h5>1/5</h5>
-      </div>
-      <div class='unit size1of5 gutter'>
-	<h5>1/5</h5>
-      </div>
-      <div class='unit size2of5 gutter'>
-	<h5>2/5</h5>        
-      </div>
-      <div class='unit size1of5 gutter'>
-	<h5>1/5</h5>
-      </div>
-    </div>
-    <div class='line'>
-      <div class='unit size1of5 gutter'>
-	<h5>1/5</h5>     
-      </div>
-      <div class='unit size2of5 gutter'>
-	<h5>2/5</h5>                  
-      </div>
-      <div class='unit size1of5 gutter'>
-	<h5>1/5</h5>	        
-      </div>
-      <div class='unit size1of5 gutter'>
-	<h5>1/5</h5>     
-      </div>
-    </div>
-    <div class='line'>
-      <div class='unit size1of5 gutter'>
-	<h5>1/5</h5>   
-      </div>
-      <div class='unit size1of5 gutter'>
-	<h5>1/5</h5>	        
-      </div>
-      <div class='unit size1of5 gutter'>
-	<h5>1/5</h5>	        
-      </div>
-      <div class='unit size2of5 gutter'>
-	<h5>2/5</h5>		        
-      </div>
-    </div>
-    <div class='line'>
-      <div class='unit size2of5 gutter'>
-	<h5>2/5</h5>     
-      </div>
-      <div class='unit size1of5 gutter'>
-	<h5>1/5</h5>        
-      </div>
-      <div class='unit size1of5 gutter'>
-	<h5>1/5</h5>	        
-      </div>
-      <div class='unit size1of5 gutter'>
-	<h5>1/5</h5>		        
-      </div>
-    </div>
-    <div class='line'>
-      <div class='unit size2of5 gutter'>
-	<h5>2/5</h5>		        
-      </div>
-      <div class='unit size2of5 gutter'>
-	<h5>2/5</h5>		        
-      </div>
-      <div class='unit size1of5 gutter'>
-	<h5>1/5</h5>	        
-      </div>
-    </div>
-    <div class='line'>
-      <div class='unit size1of5 gutter'>
-	<h5>1/5</h5>	        
-      </div>
-      <div class='unit size2of5 gutter'>
-	<h5>2/5</h5>	        
-      </div>
-      <div class='unit size2of5 gutter'>
-	<h5>2/5</h5>		        
-      </div>
-    </div>
-    <div class='line'>
-      <div class='unit size2of5 gutter'>
-	<h5>2/5</h5>    
-      </div>
-      <div class='unit size1of5 gutter'>
-	<h5>1/5</h5>	        
-      </div>
-      <div class='unit size2of5 gutter'>
-	<h5>2/5</h5>      
-      </div>
-    </div>
-    <div class='line'>
-      <div class='unit size1of5 gutter'>
-	<h5>1/5</h5>		        
-      </div>
-      <div class='unit size3of5 gutter'>
-	<h5>3/5</h5>	        
-      </div>
-      <div class='unit size1of5 gutter'>
-	<h5>1/5</h5>
-      </div>
-    </div>
-    <div class='line'>
-      <div class='unit size1of5 gutter'>
-	<h5>1/5</h5>	        
-      </div>
-      <div class='unit size1of5 gutter'>
-	<h5>1/5</h5>	        
-      </div>
-      <div class='unit size3of5 gutter'>
-	<h5>3/5</h5>	
-      </div>
-    </div>
-    <div class='line'>
-      <div class='unit size3of5 gutter'>
-	<h5>3/5</h5>
-      </div>
-      <div class='unit size1of5 gutter'>
-	<h5>1/5</h5>	        
-      </div>
-      <div class='unit size1of5 gutter'>
-	<h5>1/5</h5>	        
-      </div>
-    </div>
-    <div class='line'>
-      <div class='unit size2of5 gutter'>
-	<h5>2/5</h5>	        
-      </div>
-      <div class='unit size3of5 gutter'>
-	<h5>3/5</h5>	        
-      </div>
-    </div>
-    <div class='line'>
-      <div class='unit size3of5 gutter'>
-	<h5>3/5</h5>	        
-      </div>
-      <div class='unit size2of5 gutter'>
-	<h5>2/5</h5>	        
-      </div>
-    </div>
-    <div class='line'>
-      <div class='unit size1of5 gutter'>
-	<h5>1/5</h5>	        
-      </div>
-      <div class='unit size4of5 gutter'>
-	<h5>4/5</h5>
-      </div>
-    </div>
-    <div class='line'>
-      <div class='unit size4of5 gutter'>
-	<h5>4/5</h5>	        
-      </div>
-      <div class='unit size1of5 gutter'>
-	<h5>1/5</h5>	        
-      </div>
-    </div>
-    <div class='line'>
-      <div class='unit size1of4 gutter'>
-	<h5>1/4</h5>	        
-      </div>
-      <div class='unit size1of4 gutter'>
-	<h5>1/4</h5>	        
-      </div>
-      <div class='unit size1of4 gutter'>
-	<h5>1/4</h5>	        
-      </div>
-      <div class='unit size1of4 gutter'>
-	<h5>1/4</h5>	        
-      </div>
-    </div>
-    <div class='line'>
-      <div class='unit size1of4 gutter'>
-	<h5>1/4</h5>	        
-      </div>
-      <div class='unit size1of2 gutter'>
-	<h5>1/2</h5>	        
-      </div>
-      <div class='unit size1of4 gutter'>
-	<h5>1/4</h5>	        
-      </div>
-    </div>
-    <div class='line'>
-      <div class='unit size1of4 gutter'>
-	<h5>1/4</h5>	        
-      </div>
-      <div class='unit size1of4 gutter'>
-	<h5>1/4</h5>
-      </div>
-      <div class='unit size1of2 gutter'>
-	<h5>1/2</h5>	        
-      </div>
-    </div>
-    <div class='line'>
-      <div class='unit size1of2 gutter'>
-	<h5>1/2</h5>	        
-      </div>
-      <div class='unit size1of4 gutter'>
-	<h5>1/4</h5>        	
-      </div>
-      <div class='unit size1of4 gutter'>
-	<h5>1/4</h5>        	
-      </div>
-    </div>
-    <div class='line'>
-      <div class='unit size1of4 gutter'>
-	<h5>1/4</h5>        	
-      </div>
-      <div class='unit size3of4 gutter'>
-	<h5>3/4</h5>
-      </div>
-    </div>
-    <div class='line'>
-      <div class='unit size3of4 gutter'>
-	<h5>3/4</h5>        	
-      </div>
-      <div class='unit size1of4 gutter'>
-	<h5>1/4</h5>        	
-      </div>
-    </div>
-    <div class='line'>
-      <div class='unit size1of3 gutter'>
-	<h5>1/3</h5>
-      </div>
-      <div class='unit size1of3 gutter'>
-	<h5>1/3</h5>        	
-      </div>
-      <div class='unit size1of3 gutter'>
-	<h5>1/3</h5>        	
-      </div>
-    </div>
-    <div class='line'>
-      <div class='unit size1of3 gutter'>
-	<h5>1/3</h5>	        
-      </div>
-      <div class='unit size2of3 gutter'>
-	<h5>2/3</h5>
-      </div>
-    </div>
-    <div class='line'>
-      <div class='unit size2of3 gutter'>
-	<h5>2/3</h5>	        
-      </div>
-      <div class='unit size1of3 gutter'>
-	<h5>1/3</h5>
-      </div>
-    </div>
-    <div class='line'>
-      <div class='unit size1of2 gutter'>
-	<h5>1/2</h5>        
-      </div>
-      <div class='unit size1of2 gutter'>
-	<h5>1/2</h5>
-      </div>
-    </div>
-    <div class='line'>
-      <div class='unit size1of1 gutter'>
-	<h5>1/1</h5>	        
-      </div>
-    </div>
-    <div class='line'>
-      <div class='unit size1of6 gutter'>
-	<h5>1/6</h5>	        
-      </div>
-      <div class='unit size1of6 gutter'>
-	<h5>1/6</h5>	
-      </div>
-      <div class='unit size1of6 gutter'>
-	<h5>1/6</h5>	        
-      </div>
-      <div class='unit size1of6 gutter'>
-	<h5>1/6</h5>	        
-      </div>
-      <div class='unit size1of6 gutter'>
-	<h5>1/6</h5>	        
-      </div>
-      <div class='unit size1of6 gutter'>
-	<h5>1/6</h5>	        
-      </div>
-    </div>
-    <div class='line'>
-      <div class='unit size1of6 gutter'>
-	<h5>1/6</h5>	        
-      </div>
-      <div class='unit size5of6 gutter'>
-	<h5>5/6</h5>	        
-      </div>
-    </div>
-    <div class='line'>
-      <div class='unit size1of6 gutter'>
-	<h5>1/6</h5>	        
-      </div>
-      <div class='unit size1of3 gutter'>
-	<h5>2/6</h5>
-      </div>
-      <div class='unit size1of2 gutter'>
-	<h5>3/6</h5>	        
-      </div>
-    </div>
-    <div class='line'>
-      <div class='unit size1of7 gutter'>
-	<h5>1/7</h5>	        
-      </div>
-      <div class='unit size1of7 gutter'>
-	<h5>1/7</h5>	        
-      </div>
-      <div class='unit size1of7 gutter'>
-	<h5>1/7</h5>	        
-      </div>
-      <div class='unit size1of7 gutter'>
-	<h5>1/7</h5>	        
-      </div>
-      <div class='unit size1of7 gutter'>
-	<h5>1/7</h5>	        
-      </div>
-      <div class='unit size1of7 gutter'>
-	<h5>1/7</h5>	        
-      </div>
-      <div class='unit size1of7 gutter'>
-	<h5>1/7</h5>
-      </div>
-    </div>
-    <div class='line'>
-      <div class='unit size1of7 gutter'>
-	<h5>1/7</h5>
-      </div>
-      <div class='unit size2of7 gutter'>
-	<h5>2/7</h5>	        
-      </div>
-      <div class='unit size3of7 gutter'>
-	<h5>3/7</h5>	        
-      </div>
-      <div class='unit size1of7 gutter'>
-	<h5>1/7</h5>	        
-      </div>
-    </div>
-    <div class='line'>
-      <div class='unit size4of7 gutter'>
-	<h5>4/7</h5>	        
-      </div>
-      <div class='unit size3of7 gutter'>
-	<h5>3/7</h5>
-      </div>
-    </div>
-    <div class='line'>
-      <div class='unit size5of7 gutter'>
-	<h5>5/7</h5>	        
-      </div>
-      <div class='unit size2of7 gutter'>
-	<h5>2/7</h5>	        
-      </div>
-    </div>
-    <div class='line'>
-      <div class='unit size6of7 gutter'>
-	<h5>6/7</h5>
-      </div>
-      <div class='unit size1of7 gutter'>
-	<h5>1/7</h5>	        
-      </div>
-    </div>
-  </div>
+	<nav class='block top-navbar'>
+		<div class='container center responsive'>
+			<div class='unit size1of1'>
+				<ul class='hori-navbar top-nav-list'>
+					<li class='hori-navbar-item nav-home'><a href='index.htm'>Home</a></li>
+					<li class='hori-navbar-item nav-typography'><a href='typography.htm'>Typography</a></li>
+					<li class='hori-navbar-item nav-grid selected'>Grid</li>
+					<li class='hori-navbar-item nav-form'><a href='form.htm'>Form</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class='block grid-example'>
+		<div class='container center'>
+			<div class='unit size1of5 color-1'>
+				<p class='text-centering'>1/5</p>
+			</div>
+			<div class='unit size1of5 color-2'>
+				<p class='text-centering'>1/5</p>
+			</div>
+			<div class='unit size1of5 color-3'>
+				<p class='text-centering'>1/5</p>
+			</div>
+			<div class='unit size1of5 color-4'>
+				<p class='text-centering'>1/5</p>
+			</div>
+			<div class='unit size1of5 color-5'>
+				<p class='text-centering'>1/5</p>
+			</div>
+		</div>
+	</div>
+	<div class='block grid-example'>
+		<div class='container center'>
+			<div class='unit size1of5 color-1'>
+				<p class='text-centering'>1/5</p>
+			</div>
+			<div class='unit size1of5 color-2'>
+				<p class='text-centering'>1/5</p>
+			</div>
+			<div class='unit size2of5 color-3'>
+				<p class='text-centering'>2/5</p>        
+			</div>
+			<div class='unit size1of5 color-4'>
+				<p class='text-centering'>1/5</p>
+			</div>
+		</div>
+	</div>
+	<div class='block grid-example'>
+		<div class='container center'>
+			<div class='unit size1of5 color-5'>
+				<p class='text-centering'>1/5</p>     
+			</div>
+			<div class='unit size2of5 color-1'>
+				<p class='text-centering'>2/5</p>                  
+			</div>
+			<div class='unit size1of5 color-2'>
+				<p class='text-centering'>1/5</p>	        
+			</div>
+			<div class='unit size1of5 color-3'>
+				<p class='text-centering'>1/5</p>     
+			</div>
+		</div>
+	</div>
+	<div class='block grid-example'>
+		<div class='container center'>
+			<div class='unit size1of5 color-4'>
+				<p class='text-centering'>1/5</p>   
+			</div>
+			<div class='unit size1of5 color-5'>
+				<p class='text-centering'>1/5</p>	        
+			</div>
+			<div class='unit size1of5 color-1'>
+				<p class='text-centering'>1/5</p>	        
+			</div>
+			<div class='unit size2of5 color-2'>
+				<p class='text-centering'>2/5</p>		        
+			</div>
+		</div>
+	</div>
+	<div class='block grid-example'>
+		<div class='container center'>
+			<div class='unit size2of5 color-3'>
+				<p class='text-centering'>2/5</p>     
+			</div>
+			<div class='unit size1of5 color-4'>
+				<p class='text-centering'>1/5</p>        
+			</div>
+			<div class='unit size1of5 color-5'>
+				<p class='text-centering'>1/5</p>	        
+			</div>
+			<div class='unit size1of5 color-1'>
+				<p class='text-centering'>1/5</p>		        
+			</div>
+		</div>
+	</div>
+	<div class='block grid-example'>
+		<div class='container center'>
+			<div class='unit size2of5 color-2'>
+				<p class='text-centering'>2/5</p>		        
+			</div>
+			<div class='unit size2of5 color-3'>
+				<p class='text-centering'>2/5</p>		        
+			</div>
+			<div class='unit size1of5 color-4'>
+				<p class='text-centering'>1/5</p>	        
+			</div>
+		</div>
+	</div>
+	<div class='block grid-example'>
+		<div class='container center'>
+			<div class='unit size1of5 color-5'>
+				<p class='text-centering'>1/5</p>	        
+			</div>
+			<div class='unit size2of5 color-1'>
+				<p class='text-centering'>2/5</p>	        
+			</div>
+			<div class='unit size2of5 color-2'>
+				<p class='text-centering'>2/5</p>		        
+			</div>
+		</div>
+	</div>
+	<div class='block grid-example'>
+		<div class='container center'>		
+			<div class='unit size2of5 color-3'>
+				<p class='text-centering'>2/5</p>    
+			</div>
+			<div class='unit size1of5 color-4'>
+				<p class='text-centering'>1/5</p>	        
+			</div>
+			<div class='unit size2of5 color-5'>
+				<p class='text-centering'>2/5</p>      
+			</div>
+		</div>
+	</div>
+	<div class='block grid-example'>
+		<div class='container center'>
+			<div class='unit size1of5 color-1'>
+				<p class='text-centering'>1/5</p>		        
+			</div>
+			<div class='unit size3of5 color-2'>
+				<p class='text-centering'>3/5</p>	        
+			</div>
+			<div class='unit size1of5 color-3'>
+				<p class='text-centering'>1/5</p>
+			</div>
+		</div>
+	</div>
+	<div class='block grid-example'>
+		<div class='container center'>
+			<div class='unit size1of5 color-4'>
+				<p class='text-centering'>1/5</p>	        
+			</div>
+			<div class='unit size1of5 color-5'>
+				<p class='text-centering'>1/5</p>	        
+			</div>
+			<div class='unit size3of5 color-1'>
+				<p class='text-centering'>3/5</p>	
+			</div>
+		</div>
+	</div>
+	<div class='block grid-example'>
+		<div class='container center'>
+			<div class='unit size3of5 color-2'>
+				<p class='text-centering'>3/5</p>
+			</div>
+			<div class='unit size1of5 color-3'>
+				<p class='text-centering'>1/5</p>	        
+			</div>
+			<div class='unit size1of5 color-4'>
+				<p class='text-centering'>1/5</p>	        
+			</div>
+		</div>
+	</div>
+	<div class='block grid-example'>
+		<div class='container center'>
+			<div class='unit size2of5 color-5'>
+				<p class='text-centering'>2/5</p>	        
+			</div>
+			<div class='unit size3of5 color-1'>
+				<p class='text-centering'>3/5</p>	        
+			</div>
+		</div>
+	</div>
+	<div class='block grid-example'>
+		<div class='container center'>
+			<div class='unit size3of5 color-2'>
+				<p class='text-centering'>3/5</p>	        
+			</div>
+			<div class='unit size2of5 color-3'>
+				<p class='text-centering'>2/5</p>	        
+			</div>
+		</div>
+	</div>
+	<div class='block grid-example'>
+		<div class='container center'>
+			<div class='unit size1of5 color-4'>
+				<p class='text-centering'>1/5</p>	        
+			</div>
+			<div class='unit size4of5 color-5'>
+				<p class='text-centering'>4/5</p>
+			</div>
+		</div>
+	</div>
+	<div class='block grid-example'>
+		<div class='container center'>
+			<div class='unit size4of5 color-1'>
+				<p class='text-centering'>4/5</p>	        
+			</div>
+			<div class='unit size1of5 color-2'>
+				<p class='text-centering'>1/5</p>	        
+			</div>
+		</div>
+	</div>
+	<div class='block grid-example'>
+		<div class='container center'>
+			<div class='unit size1of4 color-3'>
+				<p class='text-centering'>1/4</p>	        
+			</div>
+			<div class='unit size1of4 color-4'>
+				<p class='text-centering'>1/4</p>	        
+			</div>
+			<div class='unit size1of4 color-5'>
+				<p class='text-centering'>1/4</p>	        
+			</div>
+			<div class='unit size1of4 color-1'>
+				<p class='text-centering'>1/4</p>	        
+			</div>
+		</div>
+	</div>
+	<div class='block grid-example'>
+		<div class='container center'>
+			<div class='unit size1of4 color-2'>
+				<p class='text-centering'>1/4</p>	        
+			</div>
+			<div class='unit size1of2 color-3'>
+				<p class='text-centering'>1/2</p>	        
+			</div>
+			<div class='unit size1of4 color-4'>
+				<p class='text-centering'>1/4</p>	        
+			</div>
+		</div>
+	</div>
+	<div class='block grid-example'>
+		<div class='container center'>
+			<div class='unit size1of4 color-5'>
+				<p class='text-centering'>1/4</p>	        
+			</div>
+			<div class='unit size1of4 color-1'>
+				<p class='text-centering'>1/4</p>
+			</div>
+			<div class='unit size1of2 color-2'>
+				<p class='text-centering'>1/2</p>	        
+			</div>
+		</div>
+	</div>
+	<div class='block grid-example'>
+		<div class='container center'>
+			<div class='unit size1of2 color-3'>
+				<p class='text-centering'>1/2</p>	        
+			</div>
+			<div class='unit size1of4 color-4'>
+				<p class='text-centering'>1/4</p>        	
+			</div>
+			<div class='unit size1of4 color-5'>
+				<p class='text-centering'>1/4</p>        	
+			</div>
+		</div>
+	</div>
+	<div class='block grid-example'>
+		<div class='container center'>
+			<div class='unit size1of4 color-1'>
+				<p class='text-centering'>1/4</p>        	
+			</div>
+			<div class='unit size3of4 color-2'>
+				<p class='text-centering'>3/4</p>
+			</div>
+		</div>
+	</div>
+	<div class='block grid-example'>
+		<div class='container center'>
+			<div class='unit size3of4 color-3'>
+				<p class='text-centering'>3/4</p>        	
+			</div>
+			<div class='unit size1of4 color-4'>
+				<p class='text-centering'>1/4</p>        	
+			</div>
+		</div>
+	</div>
+	<div class='block grid-example'>
+		<div class='container center'>
+			<div class='unit size1of3 color-5'>
+				<p class='text-centering'>1/3</p>
+			</div>
+			<div class='unit size1of3 color-1'>
+				<p class='text-centering'>1/3</p>        	
+			</div>
+			<div class='unit size1of3 color-2'>
+				<p class='text-centering'>1/3</p>        	
+			</div>
+		</div>
+	</div>
+	<div class='block grid-example'>
+		<div class='container center'>
+			<div class='unit size1of3 color-3'>
+				<p class='text-centering'>1/3</p>	        
+			</div>
+			<div class='unit size2of3 color-4'>
+				<p class='text-centering'>2/3</p>
+			</div>
+		</div>
+	</div>
+	<div class='block grid-example'>
+		<div class='container center'>
+			<div class='unit size2of3 color-5'>
+				<p class='text-centering'>2/3</p>	        
+			</div>
+			<div class='unit size1of3 color-1'>
+				<p class='text-centering'>1/3</p>
+			</div>
+		</div>
+	</div>
+	<div class='block grid-example'>
+		<div class='container center'>
+			<div class='unit size1of2 color-2'>
+				<p class='text-centering'>1/2</p>        
+			</div>
+			<div class='unit size1of2 color-3'>
+				<p class='text-centering'>1/2</p>
+			</div>
+		</div>
+	</div>
+	<div class='block grid-example'>
+		<div class='container center'>
+			<div class='unit size1of1 color-4'>
+				<p class='text-centering'>1/1</p>	        
+			</div>
+		</div>
+	</div>
+	<div class='block grid-example'>
+		<div class='container center'>
+			<div class='unit size1of6 color-5'>
+				<p class='text-centering'>1/6</p>	        
+			</div>
+			<div class='unit size1of6 color-1'>
+				<p class='text-centering'>1/6</p>	
+			</div>
+			<div class='unit size1of6 color-2'>
+				<p class='text-centering'>1/6</p>	        
+			</div>
+			<div class='unit size1of6 color-3'>
+				<p class='text-centering'>1/6</p>	        
+			</div>
+			<div class='unit size1of6 color-4'>
+				<p class='text-centering'>1/6</p>	        
+			</div>
+			<div class='unit size1of6 color-5'>
+				<p class='text-centering'>1/6</p>	        
+			</div>
+		</div>
+	</div>
+	<div class='block grid-example'>
+		<div class='container center'>
+			<div class='unit size1of6 color-1'>
+				<p class='text-centering'>1/6</p>	        
+			</div>
+			<div class='unit size5of6 color-2'>
+				<p class='text-centering'>5/6</p>	        
+			</div>
+		</div>
+	</div>
+	<div class='block grid-example'>
+		<div class='container center'>
+			<div class='unit size1of6 color-3'>
+				<p class='text-centering'>1/6</p>	        
+			</div>
+			<div class='unit size1of3 color-4'>
+				<p class='text-centering'>2/6</p>
+			</div>
+			<div class='unit size1of2 color-5'>
+				<p class='text-centering'>3/6</p>	        
+			</div>
+		</div>
+	</div>
+	<div class='block grid-example'>
+		<div class='container center'>
+			<div class='unit size1of7 color-1'>
+				<p class='text-centering'>1/7</p>	        
+			</div>
+			<div class='unit size1of7 color-2'>
+				<p class='text-centering'>1/7</p>	        
+			</div>
+			<div class='unit size1of7 color-3'>
+				<p class='text-centering'>1/7</p>	        
+			</div>
+			<div class='unit size1of7 color-4'>
+				<p class='text-centering'>1/7</p>	        
+			</div>
+			<div class='unit size1of7 color-5'>
+				<p class='text-centering'>1/7</p>	        
+			</div>
+			<div class='unit size1of7 color-1'>
+				<p class='text-centering'>1/7</p>	        
+			</div>
+			<div class='unit size1of7 color-2'>
+				<p class='text-centering'>1/7</p>
+			</div>
+		</div>
+	</div>
+	<div class='block grid-example'>
+		<div class='container center'>
+			<div class='unit size1of7 color-3'>
+				<p class='text-centering'>1/7</p>
+			</div>
+			<div class='unit size2of7 color-4'>
+				<p class='text-centering'>2/7</p>	        
+			</div>
+			<div class='unit size3of7 color-5'>
+				<p class='text-centering'>3/7</p>	        
+			</div>
+			<div class='unit size1of7 color-1'>
+				<p class='text-centering'>1/7</p>	        
+			</div>
+		</div>
+	</div>
+	<div class='block grid-example'>
+		<div class='container center'>
+			<div class='unit size4of7 color-2'>
+				<p class='text-centering'>4/7</p>	        
+			</div>
+			<div class='unit size3of7 color-3'>
+				<p class='text-centering'>3/7</p>
+			</div>
+		</div>
+	</div>
+	<div class='block grid-example'>
+		<div class='container center'>
+			<div class='unit size5of7 color-4'>
+				<p class='text-centering'>5/7</p>	        
+			</div>
+			<div class='unit size2of7 color-5'>
+				<p class='text-centering'>2/7</p>	        
+			</div>
+		</div>
+	</div>
+	<div class='block grid-example'>
+		<div class='container center'>
+			<div class='unit size6of7 color-1'>
+				<p class='text-centering'>6/7</p>
+			</div>
+			<div class='unit size1of7 color-2'>
+				<p class='text-centering'>1/7</p>	        
+			</div>
+		</div>
+	</div>
+	<div class='block gutter grid-example'>
+		<div class='container center'>
+			<div class='unit size1of5 color-1'>
+				<p class='text-centering'>1/5</p>
+			</div>
+			<div class='unit size1of5 color-2'>
+				<p class='text-centering'>1/5</p>
+			</div>
+			<div class='unit size1of5 color-3'>
+				<p class='text-centering'>1/5</p>
+			</div>
+			<div class='unit size1of5 color-4'>
+				<p class='text-centering'>1/5</p>
+			</div>
+			<div class='unit size1of5 color-5'>
+				<p class='text-centering'>1/5</p>
+			</div>
+		</div>
+	</div>
+	<div class='block gutter grid-example'>
+		<div class='container center'>
+			<div class='unit size1of5 color-1'>
+				<p class='text-centering'>1/5</p>
+			</div>
+			<div class='unit size1of5 color-2'>
+				<p class='text-centering'>1/5</p>
+			</div>
+			<div class='unit size2of5 color-3'>
+				<p class='text-centering'>2/5</p>        
+			</div>
+			<div class='unit size1of5 color-4'>
+				<p class='text-centering'>1/5</p>
+			</div>
+		</div>
+	</div>
+	<div class='block gutter grid-example'>
+		<div class='container center'>
+			<div class='unit size1of5 color-5'>
+				<p class='text-centering'>1/5</p>     
+			</div>
+			<div class='unit size2of5 color-1'>
+				<p class='text-centering'>2/5</p>                  
+			</div>
+			<div class='unit size1of5 color-2'>
+				<p class='text-centering'>1/5</p>	        
+			</div>
+			<div class='unit size1of5 color-3'>
+				<p class='text-centering'>1/5</p>     
+			</div>
+		</div>
+	</div>
+	<div class='block gutter grid-example'>
+		<div class='container center'>
+			<div class='unit size1of5 color-4'>
+				<p class='text-centering'>1/5</p>   
+			</div>
+			<div class='unit size1of5 color-5'>
+				<p class='text-centering'>1/5</p>	        
+			</div>
+			<div class='unit size1of5 color-1'>
+				<p class='text-centering'>1/5</p>	        
+			</div>
+			<div class='unit size2of5 color-2'>
+				<p class='text-centering'>2/5</p>		        
+			</div>
+		</div>
+	</div>
+	<div class='block gutter grid-example'>
+		<div class='container center'>
+			<div class='unit size2of5 color-3'>
+				<p class='text-centering'>2/5</p>     
+			</div>
+			<div class='unit size1of5 color-4'>
+				<p class='text-centering'>1/5</p>        
+			</div>
+			<div class='unit size1of5 color-5'>
+				<p class='text-centering'>1/5</p>	        
+			</div>
+			<div class='unit size1of5 color-1'>
+				<p class='text-centering'>1/5</p>		        
+			</div>
+		</div>
+	</div>
+	<div class='block gutter grid-example'>
+		<div class='container center'>
+			<div class='unit size2of5 color-2'>
+				<p class='text-centering'>2/5</p>		        
+			</div>
+			<div class='unit size2of5 color-3'>
+				<p class='text-centering'>2/5</p>		        
+			</div>
+			<div class='unit size1of5 color-4'>
+				<p class='text-centering'>1/5</p>	        
+			</div>
+		</div>
+	</div>
+	<div class='block gutter grid-example'>
+		<div class='container center'>
+			<div class='unit size1of5 color-5'>
+				<p class='text-centering'>1/5</p>	        
+			</div>
+			<div class='unit size2of5 color-1'>
+				<p class='text-centering'>2/5</p>	        
+			</div>
+			<div class='unit size2of5 color-2'>
+				<p class='text-centering'>2/5</p>		        
+			</div>
+		</div>
+	</div>
+	<div class='block gutter grid-example'>
+		<div class='container center'>		
+			<div class='unit size2of5 color-3'>
+				<p class='text-centering'>2/5</p>    
+			</div>
+			<div class='unit size1of5 color-4'>
+				<p class='text-centering'>1/5</p>	        
+			</div>
+			<div class='unit size2of5 color-5'>
+				<p class='text-centering'>2/5</p>      
+			</div>
+		</div>
+	</div>
+	<div class='block gutter grid-example'>
+		<div class='container center'>
+			<div class='unit size1of5 color-1'>
+				<p class='text-centering'>1/5</p>		        
+			</div>
+			<div class='unit size3of5 color-2'>
+				<p class='text-centering'>3/5</p>	        
+			</div>
+			<div class='unit size1of5 color-3'>
+				<p class='text-centering'>1/5</p>
+			</div>
+		</div>
+	</div>
+	<div class='block gutter grid-example'>
+		<div class='container center'>
+			<div class='unit size1of5 color-4'>
+				<p class='text-centering'>1/5</p>	        
+			</div>
+			<div class='unit size1of5 color-5'>
+				<p class='text-centering'>1/5</p>	        
+			</div>
+			<div class='unit size3of5 color-1'>
+				<p class='text-centering'>3/5</p>	
+			</div>
+		</div>
+	</div>
+	<div class='block gutter grid-example'>
+		<div class='container center'>
+			<div class='unit size3of5 color-2'>
+				<p class='text-centering'>3/5</p>
+			</div>
+			<div class='unit size1of5 color-3'>
+				<p class='text-centering'>1/5</p>	        
+			</div>
+			<div class='unit size1of5 color-4'>
+				<p class='text-centering'>1/5</p>	        
+			</div>
+		</div>
+	</div>
+	<div class='block gutter grid-example'>
+		<div class='container center'>
+			<div class='unit size2of5 color-5'>
+				<p class='text-centering'>2/5</p>	        
+			</div>
+			<div class='unit size3of5 color-1'>
+				<p class='text-centering'>3/5</p>	        
+			</div>
+		</div>
+	</div>
+	<div class='block gutter grid-example'>
+		<div class='container center'>
+			<div class='unit size3of5 color-2'>
+				<p class='text-centering'>3/5</p>	        
+			</div>
+			<div class='unit size2of5 color-3'>
+				<p class='text-centering'>2/5</p>	        
+			</div>
+		</div>
+	</div>
+	<div class='block gutter grid-example'>
+		<div class='container center'>
+			<div class='unit size1of5 color-4'>
+				<p class='text-centering'>1/5</p>	        
+			</div>
+			<div class='unit size4of5 color-5'>
+				<p class='text-centering'>4/5</p>
+			</div>
+		</div>
+	</div>
+	<div class='block gutter grid-example'>
+		<div class='container center'>
+			<div class='unit size4of5 color-1'>
+				<p class='text-centering'>4/5</p>	        
+			</div>
+			<div class='unit size1of5 color-2'>
+				<p class='text-centering'>1/5</p>	        
+			</div>
+		</div>
+	</div>
+	<div class='block gutter grid-example'>
+		<div class='container center'>
+			<div class='unit size1of4 color-3'>
+				<p class='text-centering'>1/4</p>	        
+			</div>
+			<div class='unit size1of4 color-4'>
+				<p class='text-centering'>1/4</p>	        
+			</div>
+			<div class='unit size1of4 color-5'>
+				<p class='text-centering'>1/4</p>	        
+			</div>
+			<div class='unit size1of4 color-1'>
+				<p class='text-centering'>1/4</p>	        
+			</div>
+		</div>
+	</div>
+	<div class='block gutter grid-example'>
+		<div class='container center'>
+			<div class='unit size1of4 color-2'>
+				<p class='text-centering'>1/4</p>	        
+			</div>
+			<div class='unit size1of2 color-3'>
+				<p class='text-centering'>1/2</p>	        
+			</div>
+			<div class='unit size1of4 color-4'>
+				<p class='text-centering'>1/4</p>	        
+			</div>
+		</div>
+	</div>
+	<div class='block gutter grid-example'>
+		<div class='container center'>
+			<div class='unit size1of4 color-5'>
+				<p class='text-centering'>1/4</p>	        
+			</div>
+			<div class='unit size1of4 color-1'>
+				<p class='text-centering'>1/4</p>
+			</div>
+			<div class='unit size1of2 color-2'>
+				<p class='text-centering'>1/2</p>	        
+			</div>
+		</div>
+	</div>
+	<div class='block gutter grid-example'>
+		<div class='container center'>
+			<div class='unit size1of2 color-3'>
+				<p class='text-centering'>1/2</p>	        
+			</div>
+			<div class='unit size1of4 color-4'>
+				<p class='text-centering'>1/4</p>        	
+			</div>
+			<div class='unit size1of4 color-5'>
+				<p class='text-centering'>1/4</p>        	
+			</div>
+		</div>
+	</div>
+	<div class='block gutter grid-example'>
+		<div class='container center'>
+			<div class='unit size1of4 color-1'>
+				<p class='text-centering'>1/4</p>        	
+			</div>
+			<div class='unit size3of4 color-2'>
+				<p class='text-centering'>3/4</p>
+			</div>
+		</div>
+	</div>
+	<div class='block gutter grid-example'>
+		<div class='container center'>
+			<div class='unit size3of4 color-3'>
+				<p class='text-centering'>3/4</p>        	
+			</div>
+			<div class='unit size1of4 color-4'>
+				<p class='text-centering'>1/4</p>        	
+			</div>
+		</div>
+	</div>
+	<div class='block gutter grid-example'>
+		<div class='container center'>
+			<div class='unit size1of3 color-5'>
+				<p class='text-centering'>1/3</p>
+			</div>
+			<div class='unit size1of3 color-1'>
+				<p class='text-centering'>1/3</p>        	
+			</div>
+			<div class='unit size1of3 color-2'>
+				<p class='text-centering'>1/3</p>        	
+			</div>
+		</div>
+	</div>
+	<div class='block gutter grid-example'>
+		<div class='container center'>
+			<div class='unit size1of3 color-3'>
+				<p class='text-centering'>1/3</p>	        
+			</div>
+			<div class='unit size2of3 color-4'>
+				<p class='text-centering'>2/3</p>
+			</div>
+		</div>
+	</div>
+	<div class='block gutter grid-example'>
+		<div class='container center'>
+			<div class='unit size2of3 color-5'>
+				<p class='text-centering'>2/3</p>	        
+			</div>
+			<div class='unit size1of3 color-1'>
+				<p class='text-centering'>1/3</p>
+			</div>
+		</div>
+	</div>
+	<div class='block gutter grid-example'>
+		<div class='container center'>
+			<div class='unit size1of2 color-2'>
+				<p class='text-centering'>1/2</p>        
+			</div>
+			<div class='unit size1of2 color-3'>
+				<p class='text-centering'>1/2</p>
+			</div>
+		</div>
+	</div>
+	<div class='block grid-example'>
+		<div class='container center'>
+			<div class='unit size1of1 color-4'>
+				<p class='text-centering'>1/1</p>	        
+			</div>
+		</div>
+	</div>
+	<div class='block gutter grid-example'>
+		<div class='container center'>
+			<div class='unit size1of6 color-5'>
+				<p class='text-centering'>1/6</p>	        
+			</div>
+			<div class='unit size1of6 color-1'>
+				<p class='text-centering'>1/6</p>	
+			</div>
+			<div class='unit size1of6 color-2'>
+				<p class='text-centering'>1/6</p>	        
+			</div>
+			<div class='unit size1of6 color-3'>
+				<p class='text-centering'>1/6</p>	        
+			</div>
+			<div class='unit size1of6 color-4'>
+				<p class='text-centering'>1/6</p>	        
+			</div>
+			<div class='unit size1of6 color-5'>
+				<p class='text-centering'>1/6</p>	        
+			</div>
+		</div>
+	</div>
+	<div class='block gutter grid-example'>
+		<div class='container center'>
+			<div class='unit size1of6 color-1'>
+				<p class='text-centering'>1/6</p>	        
+			</div>
+			<div class='unit size5of6 color-2'>
+				<p class='text-centering'>5/6</p>	        
+			</div>
+		</div>
+	</div>
+	<div class='block gutter grid-example'>
+		<div class='container center'>
+			<div class='unit size1of6 color-3'>
+				<p class='text-centering'>1/6</p>	        
+			</div>
+			<div class='unit size1of3 color-4'>
+				<p class='text-centering'>2/6</p>
+			</div>
+			<div class='unit size1of2 color-5'>
+				<p class='text-centering'>3/6</p>	        
+			</div>
+		</div>
+	</div>
+	<div class='block gutter grid-example'>
+		<div class='container center'>
+			<div class='unit size1of7 color-1'>
+				<p class='text-centering'>1/7</p>	        
+			</div>
+			<div class='unit size1of7 color-2'>
+				<p class='text-centering'>1/7</p>	        
+			</div>
+			<div class='unit size1of7 color-3'>
+				<p class='text-centering'>1/7</p>	        
+			</div>
+			<div class='unit size1of7 color-4'>
+				<p class='text-centering'>1/7</p>	        
+			</div>
+			<div class='unit size1of7 color-5'>
+				<p class='text-centering'>1/7</p>	        
+			</div>
+			<div class='unit size1of7 color-1'>
+				<p class='text-centering'>1/7</p>	        
+			</div>
+			<div class='unit size1of7 color-2'>
+				<p class='text-centering'>1/7</p>
+			</div>
+		</div>
+	</div>
+	<div class='block gutter grid-example'>
+		<div class='container center'>
+			<div class='unit size1of7 color-3'>
+				<p class='text-centering'>1/7</p>
+			</div>
+			<div class='unit size2of7 color-4'>
+				<p class='text-centering'>2/7</p>	        
+			</div>
+			<div class='unit size3of7 color-5'>
+				<p class='text-centering'>3/7</p>	        
+			</div>
+			<div class='unit size1of7 color-1'>
+				<p class='text-centering'>1/7</p>	        
+			</div>
+		</div>
+	</div>
+	<div class='block gutter grid-example'>
+		<div class='container center'>
+			<div class='unit size4of7 color-2'>
+				<p class='text-centering'>4/7</p>	        
+			</div>
+			<div class='unit size3of7 color-3'>
+				<p class='text-centering'>3/7</p>
+			</div>
+		</div>
+	</div>
+	<div class='block gutter grid-example'>
+		<div class='container center'>
+			<div class='unit size5of7 color-4'>
+				<p class='text-centering'>5/7</p>	        
+			</div>
+			<div class='unit size2of7 color-5'>
+				<p class='text-centering'>2/7</p>	        
+			</div>
+		</div>
+	</div>
+	<div class='block gutter grid-example'>
+		<div class='container center'>
+			<div class='unit size6of7 color-1'>
+				<p class='text-centering'>6/7</p>
+			</div>
+			<div class='unit size1of7 color-2'>
+				<p class='text-centering'>1/7</p>	        
+			</div>
+		</div>
+	</div>
+	
+	
+	<div class='block gutter grid-example'>
+		<div class='container center'>
+			<div class='unit size1of7 color-1'>
+				<p class='text-centering'>1/7</p>
+			</div>
+			<div class='unit size6of7'>
+				<div class='block'>
+					<div class='unit size1of2 color-2'>
+						<p class='text-centering'>1/2</p>	
+					</div>
+					<div class='unit size1of2'>
+						<div class='block'>
+							<div class='unit size1of7 color-3'>
+								<p class='text-centering'>1/7</p>
+							</div>
+							<div class='unit size1of7 color-4'>
+								<p class='text-centering'>1/7</p>
+							</div>
+							<div class='unit size1of7 color-5'>
+								<p class='text-centering'>1/7</p>
+							</div>
+							<div class='unit size4of7'>
+								<div class='block'>
+									<div class='unit size1of2 color-1'>
+										<p class='text-centering'>1/2</p>
+									</div>
+									<div class='unit size1of2 color-2'>
+										<p class='text-centering'>1/2</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class='block gutter grid-example'>
+		<div class='container center'>
+			<div class='unit size1of2 color-1'>
+				<p class='text-centering'>1/2</p>
+			</div>
+			<div class='unit size1of2'>
+				<div class='block'>
+					<div class='unit size1of2 color-2'>
+						<p class='text-centering'>1/2</p>	
+					</div>
+					<div class='unit size1of2'>
+						<div class='block'>
+							<div class='unit size1of2 color-3'>
+								<p class='text-centering'>1/2</p>
+							</div>
+							<div class='unit size1of2 color-4'>
+								<div class='block'>
+									<div class='unit size1of2 color-4'>
+										<p class='text-centering'>1/2</p>
+									</div>
+									<div class='unit size1of2 color-5'>
+										<p class='text-centering'>1/2</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>

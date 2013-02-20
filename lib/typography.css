@@ -1,25 +1,38 @@
-body {
+html {
     font: 16px/1.618 'OpenSans', sans-serif;
 	font-size: 1rem;
+	word-break: break-all;
+	-webkit-overflow-wrap: break-word;
+	-moz-overflow-wrap: break-word;
+	overflow-wrap: break-word;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
     color: #333333;
 }
 
-p {
-	margin: 1.618em 0;
-}
+p {margin: 1.618em 0;}
 
-p:nth-of-type(1) {
-    margin: 0 0 1.618em 0;
-}
+p:nth-of-type(1) {margin: 0 0 1.618em 0;}
 
-p:last-child {
-    margin-bottom: 0;
-}
+p:last-child {margin-bottom: 0;}
 
 h1, h2, h3, h4, h5, h6, .h0, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family:  Georgia, 'Palatino Linotype', Palatino, 'URW Palladio L', 'Book Antiqua', Baskerville, 'Bookman Old Style', 'Bitstream Charter', 'Nimbus Roman No9 L', Garamond, 'New Century Schoolbook', 'Century Schoolbook', 'Century Schoolbook L', serif;
     font-weight: normal;
     margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, .h0, .h1, .h2, .h3, .h4, .h5, .h6, pre {
+	word-break: normal;
+	-webkit-overflow-wrap: normal;
+	-moz-overflow-wrap: normal;
+	overflow-wrap: normal;
+	-webkit-hyphens: manual;
+	-moz-hyphens: manual;
+	-ms-hyphens: manual;
+	hyphens: manual;
 }
 
 .h0 {
@@ -198,15 +211,6 @@ small {
 
 
 
-/* Quotes */
- 
-blockquote {
-    border-left: 1px solid #ADFF2F;
-    letter-spacing: 0.03em;
-    font-style: italic;
-    margin: 1.618em 0;
-    padding-left: 1.618em;
-}
 
 q {
     quotes: '\201C' '\201D' '\2018' '\2019';
