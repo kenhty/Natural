@@ -10,7 +10,7 @@
 
 .block {width: auto;}
 
-.block, .container {
+.block, .block > * {
     display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -21,7 +21,20 @@
     justify-content: space-between;
 }
 
-.unit {}
+.unit {display: inline;}
+
+.order-1 {order: 1;}
+.order-2 {order: 2;}
+.order-3 {order: 3;}
+.order-4 {order: 4;}
+.order-5 {order: 5;}
+.order-6 {order: 6;}
+.order-7 {order: 7;}
+.order-8 {order: 8;}
+.order-9 {order: 9;}
+.order-10 {order: 10;}
+.order-11 {order: 11;}
+.order-12 {order: 12;}
 
 .block > .size1of2,
 .block > * > .size1of2 {width: 50%;}
