@@ -15,7 +15,7 @@ Additional polyfills need to make older browsers to work.
 
 ### Include Natural in your page
 
-<link rel="stylesheet" href="natural.css">
+	<link rel="stylesheet" href="natural.css">
 
 ### Simple flexible grid
 

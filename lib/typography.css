@@ -1,7 +1,6 @@
 html {
     font: 16px/1.618 'OpenSans', sans-serif;
 	font-size: 1rem;
-	word-break: break-all;
 	-webkit-overflow-wrap: break-word;
 	-moz-overflow-wrap: break-word;
 	overflow-wrap: break-word;
@@ -19,7 +18,7 @@ p:nth-of-type(1) {margin: 0 0 1.618em 0;}
 p:last-child {margin-bottom: 0;}
 
 h1, h2, h3, h4, h5, h6, .h0, .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family:  Georgia, 'Palatino Linotype', Palatino, 'URW Palladio L', 'Book Antiqua', Baskerville, 'Bookman Old Style', 'Bitstream Charter', 'Nimbus Roman No9 L', Garamond, 'New Century Schoolbook', 'Century Schoolbook', 'Century Schoolbook L', serif;
+    font-family: 'EBGaramond', serif;
     font-weight: normal;
     margin: 0;
 }
@@ -80,6 +79,18 @@ h6, .h6 {
 small {
     font-size: 13px;
     font-size: 0.8125rem;
+}
+
+@font-face {
+    font-family: 'EBGaramond';
+    src: url('font/EBGaramond-webfont.eot');
+    src: url('font/EBGaramond-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/EBGaramond-webfont.woff') format('woff'),
+         url('font/EBGaramond-webfont.ttf') format('truetype'),
+         url('font/EBGaramond-webfont.svg#EBGaramondRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 @font-face {
