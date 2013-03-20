@@ -1,16 +1,14 @@
 @import url('top-navbar.css');
 
-.grid-example {
-	color: white;
-}
+.grid-example {color: white;}
 
-.grid-example:nth-of-type(1) {
-	margin-top: 1.618em;
-}
+.grid-example:nth-of-type(1) {margin-top: 1.618em;}
 
-.grid-example:last-child {
-	margin-bottom: 1.618em;
-}
+.grid-example:last-child {margin-bottom: 1.618em;}
+
+.left-part {order: 2;}
+
+.right-part {order: 1;}
 
 .color-1 {
 	background-color: #556270;

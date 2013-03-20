@@ -76,9 +76,10 @@ h6, .h6 {
     line-height: 1.2328;
 }
 
-small {
+small, .h7 {
     font-size: 13px;
     font-size: 0.8125rem;
+	line-height: 1.3483;
 }
 
 @font-face {
