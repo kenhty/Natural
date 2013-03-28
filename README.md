@@ -10,6 +10,7 @@ Additional polyfills need to make older browsers to work.
 * Fibonacci sequence in h1 h2 h3 h4 h5 h6 and other helper like .h0 - .h6
 * Use 1em or 16px for readable text
 * Use normalize.css
+* Media object
 * incremental leading below 16px
 * Responsive support for 300px, 748px, 978px, 1218px and 1378px
 
@@ -93,3 +94,10 @@ Additional polyfills need to make older browsers to work.
 			</div>
 		</div>
 	</nav>
+
+### Media object	
+	
+	<div class='media'>
+		<img src='http://placekitten.com/96/139' alt='' class='media-img'>
+		<p class='media-body'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor lacinia turpis nec pulvinar. Duis consequat tincidunt odio, non molestie purus tempus eget. Aliquam nec nisi non lacus auctor semper nec ac felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor lacinia turpis nec pulvinar. Duis consequat tincidunt odio, non molestie purus tempus eget.</p>
+	</div>
