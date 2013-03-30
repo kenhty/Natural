@@ -1,5 +1,7 @@
-@import url('top-navbar.css');
+@import url('site-nav.css');
 
-.media-example {margin-top: 1.618em;}
+.media-example:nth-of-type(1) {margin-top: 1.618em;}
+
+.media-example {margin-top: 0.809em;}
 
 .media-example:last-child {margin-bottom: 1.618em;}
