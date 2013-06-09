@@ -1,18 +1,18 @@
-.hori-navbar {
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-    display: flex;
-	list-style: none;
-	padding: 0;
+.nav {list-style: none;}
+
+.nav ul {padding: 0;}
+
+.nav li, .nav li a {
+    display: inline-block;
+	text-decoration: none;
 }
 
-.hori-navbar-item {
-	padding: 0.4045em 0.809em;
+.breadcrumb {}
+
+.breadcrumb li:before {
+	content: "\00bb";
 }
 
-.vert-navbar {
-}
-
-.vert-navbar-item {
+.breadcrumb li:first-child:before {
+	content: normal;
 }

@@ -1,13 +1,6 @@
 html {
     font: 16px/1.618 'OpenSans', sans-serif;
 	font-size: 1rem;
-	-webkit-overflow-wrap: break-word;
-	-moz-overflow-wrap: break-word;
-	overflow-wrap: break-word;
-	-webkit-hyphens: auto;
-	-moz-hyphens: auto;
-	-ms-hyphens: auto;
-	hyphens: auto;
     color: #333333;
 }
 
@@ -17,12 +10,16 @@ p:nth-of-type(1) {margin: 0 0 1.618em 0;}
 
 p:last-child {margin-bottom: 0;}
 
-h1, h2, h3, h4, h5, h6, .h0, .h1, .h2, .h3, .h4, .h5, .h6 {
+h1, h2, h3, h4, h5, h6, .h0, .h1, .h2, .h3, .h4, .h5, .h6, .h0--margin-bottom, .h1--margin-bottom, .h2--margin-bottom, .h3--margin-bottom, .h4--margin-bottom, .h5--margin-bottom, .h6--margin-bottom, .h0--margin-balance, .h1--margin-balance, .h2--margin-balance, .h3--margin-balance, .h4--margin-balance, .h5--margin-balance, .h6--margin-balance {
     font-family: 'EBGaramond', serif;
     font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6, .h0, .h1, .h2, .h3, .h4, .h5, .h6 {
     margin: 0;
 }
 
+/*
 h1, h2, h3, h4, h5, h6, .h0, .h1, .h2, .h3, .h4, .h5, .h6, pre {
 	word-break: normal;
 	-webkit-overflow-wrap: normal;
@@ -33,50 +30,106 @@ h1, h2, h3, h4, h5, h6, .h0, .h1, .h2, .h3, .h4, .h5, .h6, pre {
 	-ms-hyphens: manual;
 	hyphens: manual;
 }
-
-.h0 {
+*/
+.h0, .h0--margin-bottom, .h0--margin-balance {
 	font-size: 89px;
 	font-size: 5.5625rem;
 	line-height: 1.1635;
 }
 
-h1, .h1 {
+.h0--margin-bottom {
+	margin-bottom: 0.2909em;
+}
+
+.h0--margin-balance {
+	margin: 0.2909em 0;
+}
+
+h1, .h1, .h1--margin-bottom, .h1--margin-balance {
     font-size: 72px;
     font-size: 4.5rem;
 	line-height: 1.0787;
 }
 
-h2, .h2 {
+.h1--margin-bottom {
+	margin-bottom: 0.3596em;
+}
+
+.h1--margin-balance {
+	margin: 0.3596em 0;
+}
+
+h2, .h2, .h2--margin-bottom, .h2--margin-balance {
     font-size: 55px;
     font-size: 3.4375rem;
     line-height: 1.4121;
 }
 
-h3, .h3 {
+.h2--margin-bottom {
+	margin-bottom: 0.4707em;
+}
+
+.h2--margin-balance {
+	margin: 0.4707em 0;
+}
+
+h3, .h3, .h3--margin-bottom, .h3--margin-balance {
     font-size: 44.5px;
     font-size: 2.78125rem;
     line-height: 1.1635;
 }
 
-h4, .h4 {
+.h3--margin-bottom {
+	margin-bottom: 0.5818em;
+}
+
+.h3--margin-balance {
+	margin: 0.5818em 0;
+}
+
+h4, .h4, .h4--margin-bottom, .h4--margin-balance {
     font-size: 34px;
     font-size: 2.125rem;
     line-height: 1.5228;
 }
 
-h5, .h5 {
+.h4--margin-bottom {
+	margin-bottom: 0.7614em;
+}
+
+.h4--margin-balance {
+	margin: 0.7614em 0;
+}
+
+h5, .h5, .h5--margin-bottom, .h5--margin-balance {
     font-size: 27.5px;
     font-size: 1.71875rem;
     line-height: 1.8828;
 }
 
-h6, .h6 {
+.h5--margin-bottom {
+	margin-bottom: 0.9414em;
+}
+
+.h5--margin-balance {
+	margin: 0.9414em 0;
+}
+
+h6, .h6, .h6--margin-bottom, .h6--margin-balance {
     font-size: 21px;
     font-size: 1.3125rem;
     line-height: 1.2328;
 }
 
-small, .h7 {
+.h6--margin-bottom {
+	margin-bottom: 1.2328em;
+}
+
+.h6--margin-balance {
+	margin: 1.2328em 0;
+}
+
+small, .small {
     font-size: 13px;
     font-size: 0.8125rem;
 	line-height: 1.3483;
