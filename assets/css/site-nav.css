@@ -1,14 +1,14 @@
-.site-nav {background-color: #333333;}
+.nav_site-nav {background-color: #333333;}
 
-.site-nav a {
+.nav_site-nav a {
 	color: #ffffff;
 }
 
-.nav-selected {
+.nav--selected {
 	color: #333333;
 	background-color: #ffffff;
 }
 
-.site-nav a, .nav-selected {
+.nav_site-nav a, .nav--selected {
 	padding: 0.4045em 0.809em;
 }

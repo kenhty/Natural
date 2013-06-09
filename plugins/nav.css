@@ -10,7 +10,7 @@
 .breadcrumb {}
 
 .breadcrumb li:before {
-	content: ">>"
+	content: "\00bb";
 }
 
 .breadcrumb li:first-child:before {
