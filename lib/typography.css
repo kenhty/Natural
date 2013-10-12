@@ -129,10 +129,18 @@ h6, .h6, .h6--margin-bottom, .h6--margin-balance {
 	margin: 1.2328em 0;
 }
 
+small, .small, .smaller {
+	line-height: 1.3483;
+}
+
 small, .small {
+    font-size: 15px;
+    font-size: 0.9375rem;
+}
+
+.smaller {
     font-size: 13px;
     font-size: 0.8125rem;
-	line-height: 1.3483;
 }
 
 @font-face {
