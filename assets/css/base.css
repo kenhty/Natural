@@ -1,0 +1,49 @@
+/* 480px = 30em,747px = 46.6875em */
+@media only screen and (min-width: 30em) and (max-width: 46.6875em) {
+	.container {
+		width: 30em; /* 480px  */
+		margin: 0 auto;
+	}
+}
+
+/* 748px = 46.75em, 977px = 61.0625em */
+@media only screen and (min-width: 46.75em) and (max-width: 61.0625em) {
+	.container {
+		width: 46.75em; /* 748px  */
+		margin: 0 auto;
+	}
+}
+
+/* 978px = 61.125em, 1217px = 76.0625em */
+@media only screen and (min-width: 61.125em) and (max-width: 76.0625em) {
+	.container {
+		width: 61.125em; /* 978px */
+		margin: 0 auto;
+	}
+}
+
+/* 1218px = 76.125em, 1407px = 87.9375em */
+@media only screen and (min-width: 76.125em) and (max-width: 87.9375em) {
+	.container {
+		width: 76.125em; /* 1218px  */
+		margin: 0 auto;
+	}
+}
+
+/* 1408px = 88em */
+@media only screen and (min-width: 88em) {
+	.container {
+		width: 86.125em; /* 86.125em = 1378px */
+		margin: 0 auto;
+	}
+}
+
+/* Apply styles to screens in landscape orientation */
+@media only screen and (orientation: landscape) {}
+
+/* Apply styles to screens in portrait orientation */
+@media only screen and (orientation: portrait) {}
+
+/* We also use Modernizr to add a .touch class to the body when applicable */
+/* You can prepend this class to anything and it will style only for touch devices */
+.touch .your-element {}
