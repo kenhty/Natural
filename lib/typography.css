@@ -1,14 +1,68 @@
+:root {
+	var-p-font-size: 16;
+	var-p-line-height: 1.618034;
+	var-h0-font-size: 89;
+	var-h1-font-size: 72;
+	var-h2-font-size: 55;
+	var-h3-font-size: 44.5;
+	var-h4-font-size: 34;
+	var-h5-font-size: 27.5;
+	var-h6-font-size: 21;
+	var-small-font-size: 15;
+	var-smaller-font-size: 13;
+	var-blockquote-cite-font-size: calc(1 / 16 * var(small-font-size) * 1rem);
+	var-pullquote-font-size: calc(1 / 16 * var(h6-font-size) * 1rem);
+}
+
 html {
-    font: 16px/1.618 'OpenSans', sans-serif;
-	font-size: 1rem;
+	font: calc(1 / 16 * var(p-font-size) * 1rem)/var(p-line-height) 'OpenSans', sans-serif; /* convert px to rem */
+    font: 1rem/1.618 'OpenSans', sans-serif;
     color: #333333;
 }
 
-p {margin: 1.618em 0;}
+p, blockquote {margin: 1.618em 0;}
 
 p:nth-of-type(1) {margin: 0 0 1.618em 0;}
 
 p:last-child {margin-bottom: 0;}
+
+blockquote {
+	font-style: italic;
+	background-color: #E0E4CC;
+	border-left: 0.809em dashed #FE4365;
+	padding: 1.618em;
+}
+
+blockquote cite {
+	font-size: var(blockquote-cite-font-size);
+	font-size: calc(1 / 16 * 15 * 1rem);
+	color: #53777A;
+	display: block;
+}
+
+blockquote cite:before {
+	content: '\2014 \2009';
+}
+
+.pullquote, .pullquote--right {
+	font-size: var(pullquote-font-size);
+	font-size: calc(1 / 16 * 21 * 1rem);
+	line-height: 1.2328;
+	border: 0;
+	background-color: transparent;
+	padding: 0;
+	width: calc((100% - 1.618em) - (100% - 1.618em) / 1.618);
+}
+
+.pullquote {
+	float: left;
+	margin-right: 1.618em;
+}
+
+.pullquote--right {
+	float: right;
+	margin-left: 1.618em;
+}
 
 h1, h2, h3, h4, h5, h6, .h0, .h1, .h2, .h3, .h4, .h5, .h6, .h0--margin-bottom, .h1--margin-bottom, .h2--margin-bottom, .h3--margin-bottom, .h4--margin-bottom, .h5--margin-bottom, .h6--margin-bottom, .h0--margin-balance, .h1--margin-balance, .h2--margin-balance, .h3--margin-balance, .h4--margin-balance, .h5--margin-balance, .h6--margin-balance {
     font-family: 'EBGaramond', serif;
@@ -32,8 +86,8 @@ h1, h2, h3, h4, h5, h6, .h0, .h1, .h2, .h3, .h4, .h5, .h6, pre {
 }
 */
 .h0, .h0--margin-bottom, .h0--margin-balance {
-	font-size: 89px;
-	font-size: 5.5625rem;
+	font-size: calc(1 / 16 * var(h0-font-size) * 1rem); /* convert px to rem */
+	font-size: calc(1 / 16 * 89 * 1rem);
 	line-height: 1.1635;
 }
 
@@ -46,8 +100,8 @@ h1, h2, h3, h4, h5, h6, .h0, .h1, .h2, .h3, .h4, .h5, .h6, pre {
 }
 
 h1, .h1, .h1--margin-bottom, .h1--margin-balance {
-    font-size: 72px;
-    font-size: 4.5rem;
+	font-size: calc(1 / 16 * var(h1-font-size) * 1rem);
+	font-size: calc(1 / 16 * 72 * 1rem);
 	line-height: 1.0787;
 }
 
@@ -60,8 +114,8 @@ h1, .h1, .h1--margin-bottom, .h1--margin-balance {
 }
 
 h2, .h2, .h2--margin-bottom, .h2--margin-balance {
-    font-size: 55px;
-    font-size: 3.4375rem;
+	font-size: calc(1 / 16 * var(h2-font-size) * 1rem);
+	font-size: calc(1 / 16 * 55 * 1rem);
     line-height: 1.4121;
 }
 
@@ -74,8 +128,8 @@ h2, .h2, .h2--margin-bottom, .h2--margin-balance {
 }
 
 h3, .h3, .h3--margin-bottom, .h3--margin-balance {
-    font-size: 44.5px;
-    font-size: 2.78125rem;
+	font-size: calc(1 / 16 * var(h3-font-size) * 1rem);
+	font-size: calc(1 / 16 * 44.5 * 1rem);
     line-height: 1.1635;
 }
 
@@ -88,8 +142,8 @@ h3, .h3, .h3--margin-bottom, .h3--margin-balance {
 }
 
 h4, .h4, .h4--margin-bottom, .h4--margin-balance {
-    font-size: 34px;
-    font-size: 2.125rem;
+	font-size: calc(1 / 16 * var(h4-font-size) * 1rem);
+	font-size: calc(1 / 16 * 34 * 1rem);
     line-height: 1.5228;
 }
 
@@ -102,8 +156,8 @@ h4, .h4, .h4--margin-bottom, .h4--margin-balance {
 }
 
 h5, .h5, .h5--margin-bottom, .h5--margin-balance {
-    font-size: 27.5px;
-    font-size: 1.71875rem;
+	font-size: calc(1 / 16 * var(h5-font-size) * 1rem);
+	font-size: calc(1 / 16 * 27.5 * 1rem);
     line-height: 1.8828;
 }
 
@@ -116,8 +170,8 @@ h5, .h5, .h5--margin-bottom, .h5--margin-balance {
 }
 
 h6, .h6, .h6--margin-bottom, .h6--margin-balance {
-    font-size: 21px;
-    font-size: 1.3125rem;
+	font-size: calc(1 / 16 * var(h6-font-size) * 1rem);
+	font-size: calc(1 / 16 * 21 * 1rem);
     line-height: 1.2328;
 }
 
@@ -134,14 +188,20 @@ small, .small, .smaller {
 }
 
 small, .small {
-    font-size: 15px;
-    font-size: 0.9375rem;
+	font-size: calc(1 / 16 * var(small-font-size) * 1rem);
+	font-size: calc(1 / 16 * 15 * 1rem);
 }
 
 .smaller {
-    font-size: 13px;
-    font-size: 0.8125rem;
+	font-size: calc(1 / 16 * var(smaller-font-size) * 1rem);
+	font-size: calc(1 / 16 * 13 * 1rem);
 }
+
+pre, code, kbd, samp, var {
+	font-family: 'Courier New', Courier, monospace;
+}
+
+pre {white-space: pre-wrap;}
 
 @font-face {
     font-family: 'EBGaramond';
@@ -273,47 +333,4 @@ small, .small {
     font-weight: 900;
     font-style: italic;
 
-}
-
-
-
-
-
-
-
-
-
-
-
-q {
-    quotes: '\201C' '\201D' '\2018' '\2019';
-}
-
-q:before {
-    content: open-quote;
-}
-
-q:after {
-    content: close-quote;
-}
-
-/* Other */
-
-em,dfn,cite,q { font-style: italic; }
-dfn { font-weight: 700; }
-
-pre,code,tt { line-height: 1.618; } 
-tt { display: block; margin: 1.618em 0; }
-hr { margin-bottom:1.618em !important; }
-abbr, acronym { border-bottom:1px dotted #000; }
-
-/* Allows line wrapping of 'pre' */
-pre {
-	white-space: pre;
-	white-space: pre-wrap;
-	word-wrap: break-word;
-}
-
-pre, code, kbd, samp {
-	font-family: Consolas,"Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;	
 }
