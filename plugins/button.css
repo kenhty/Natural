@@ -1,63 +1,52 @@
-.td-button {
-    display: inline-block;
-    margin: 1.618em 0.809em;
-    
-	-webkit-border-radius: 0.4045em;
-    -moz-border-radius: 0.4045em;
-    border-radius: 0.4045em;
-    
-	-webkit-box-shadow: 0 0.4045em 0 #c5376d, 0 15px 20px rgba(0, 0, 0, .35);
-    -moz-box-shadow: 0 0.4045em 0 #c5376d, 0 15px 20px rgba(0, 0, 0, .35);
-    box-shadow: 0 0.4045em 0 #c5376d, 0 15px 20px rgba(0, 0, 0, .35);
-    
-	-webkit-transition: -webkit-box-shadow .1s ease-in-out;
-    -moz-transition: -moz-box-shadow .1s ease-in-out;
-    -o-transition: -o-box-shadow .1s ease-in-out;
-    transition: box-shadow .1s ease-in-out;
+.button {
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	color: white;
+	padding: 0.4045em 0.809em;
+	text-shadow: 0 1px #154c86;
+	background-color: #247edd;
+	border: 1px solid;
+	border-color: #1c65b2 #18589c #18589c;
+	border-radius: 4px;
+	box-shadow: inset 0 1px rgba(255, 255, 255, 0.4), 0 1px 2px rgba(0, 0, 0, 0.2);
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.12) 51%, rgba(0, 0, 0, 0.04));
 }
 
-.td-button a {
-    display: inline-block;
-    padding: 0.4045em 0.809em;
+.button a {
 	text-decoration: none;
-	color: #ffffff;
-    background-color: #ec528d;
-    
-	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(hsla(338, 90%, 80%, .8)), to(hsla(338, 90%, 70%, .2)));
-    background-image: -webkit-linear-gradient(hsla(338, 90%, 80%, .8), hsla(338, 90%, 70%, .2));
-    background-image: -moz-linear-gradient(hsla(338, 90%, 80%, .8), hsla(338, 90%, 70%, .2));
-    background-image: -o-linear-gradient(hsla(338, 90%, 80%, .8), hsla(338, 90%, 70%, .2));
-    
-	-webkit-border-radius: 0.4045em;
-    -moz-border-radius: 0.4045em;
-    border-radius: 0.4045em;
-    
-	-webkit-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
-    -moz-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
-    box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
-    
-	text-shadow: 0 1px 1px rgba(175, 49, 95, .7);
-    
-	-webkit-transition: background-color .2s ease-in-out, -webkit-transform .1s ease-in-out;
-    -moz-transition: background-color .2s ease-in-out, -moz-transform .1s ease-in-out;
-    -o-transition: background-color .2s ease-in-out, -o-transform .1s ease-in-out;
-    transition: background-color .2s ease-in-out, transform .1s ease-in-out;
+	color: white;
 }
 
-.td-button:hover a {
-    background-color: #ec6a9c;
-    text-shadow: 0 1px 1px rgba(175, 49, 95, .9), 0 0 5px rgba(255, 255, 255, .8);
+.button:before {
+	content: '';
+	position: absolute;
+	top: -25%;
+	bottom: -25%;
+	left: -20%;
+	right: -20%;
+	border-radius: 50%;
+	background: transparent;
+	box-shadow: inset 0 0 38px rgba(255, 255, 255, 0.5);
 }
 
-.td-button:active, .td-button:focus {
-    -webkit-box-shadow:    0 8px 0 #c5376d, 0 12px 10px rgba(0, 0, 0, .3);
-    -moz-box-shadow: 0 8px 0 #c5376d, 0 12px 10px rgba(0, 0, 0, .3);
-    box-shadow:    0 8px 0 #c5376d, 0 12px 10px rgba(0, 0, 0, .3);
+.button:hover {
+	background-color: #1a74d3;
 }
 
-.td-button:active a {
-    -webkit-transform: translate(0, 4px);
-    -moz-transform: translate(0, 4px);
-    -o-transform: translate(0, 4px);
-    transform: translate(0, 4px);
+.button:active {
+	color: rgba(255, 255, 255, 0.9);
+	text-shadow: 0 -1px #154c86;
+	background: #1f71c8;
+	border-color: #113f70 #154c86 #1c65b2;
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2), 0 1px rgba(255, 255, 255, 0.4);
+	background-image: linear-gradient(to bottom, #1a5da5, #3a8be0);
+}
+
+.button:active:before {
+	top: -50%;
+	bottom: -125%;
+	left: -15%;
+	right: -15%;
+	box-shadow: inset 0 0 96px rgba(0, 0, 0, 0.2);
 }
