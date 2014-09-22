@@ -30,7 +30,7 @@
 	    <div class='block gutter form-example'>
 			<div class='container'>
 				<div class='unit size1of2'>
-					<form class='form form_inline'>
+					<form class='form_inline'>
 						<fieldset>
 							<legend><h2 class='h6--margin-bottom'>A compact inline form</h2></legend>
 
@@ -44,63 +44,88 @@
 							<button type='submit' class='button botton_notice'>Sign in</button>
 						</fieldset>
 					</form>
-					<form class='form form_stacked'>
+					<form class='form_stacked'>
 						<fieldset>
 							<legend><h2 class='h6--margin-balance'>A stacked form</h2></legend>
 
-							<label for='email'>Email</label>
-							<input id='email' type='email' placeholder='Email'>
+							<div class='form-group'>
+								<label for='email'>Email</label>
+								<input id='email' class='form-control' type='email' placeholder='Email'>
+							</div>
+							
+							<div class='form-group'>							
+								<label for='password'>Password</label>
+								<input id='password' class='form-control' type='password' placeholder='Password'>
+							</div>
+							
+							<div class='form-group'>
+								<label for='state'>State</label>
+								<select id='state'>
+									<option>AL</option>
+									<option>CA</option>
+									<option>IL</option>
+								</select>
+							</div>
 
-							<label for='password'>Password</label>
-							<input id='password' type='password' placeholder='Password'>
+							<div class='checkbox'>
+								<label for='remember'>
+									<input id='remember-me' type='checkbox'> Remember me
+								</label>
+							</div>
 
-							<label for='state'>State</label>
-							<select id='state'>
-								<option>AL</option>
-								<option>CA</option>
-								<option>IL</option>
-							</select>
-
-							<label for='remember' class='pure-checkbox'>
-								<input id='remember' type='checkbox'> Remember me
-							</label>
-
-							<button type='submit' class='button botton_notice'>Sign in</button>
+							<button type='submit' class='button'>Sign in</button>
 						</fieldset>
 					</form>
-					<form class='form form_aligned'>
+					<form class='form_aligned'>
 						<fieldset>
 							<legend><h2 class='h6--margin-balance'>An aligned form</h2></legend>
 						
-							<div class='form_control-group'>
-								<label for='name'>Username</label>
-								<input id='name' type='text' placeholder='Username'>
+							<div class='block form-group'>
+								<div class='unit size1of3'>
+									<label for='name'>Username</label>
+								</div>
+								<div class='unit size2of3'>
+									<input id='name' class='form-control' type='text' placeholder='Username'>
+								</div>
 							</div>
-
-							<div class='form_control-group'>
-								<label for='password'>Password</label>
-								<input id='password' type='password' placeholder='Password'>
+							
+							<div class='block form-group'>
+								<div class='unit size1of3'>
+									<label for='password'>Password</label>
+								</div>
+								<div class='unit size2of3'>
+									<input id='password' class='form-control' type='password' placeholder='Password'>
+								</div>
 							</div>
-
-							<div class='form_control-group'>
-								<label for='email'>Email Address</label>
-								<input id='email' type='email' placeholder='Email Address'>
+							
+							<div class='block form-group'>
+								<div class='unit size1of3'>
+									<label for='email'>Email Address</label>
+								</div>
+								<div class='unit size2of3'>
+									<input id='email' class='form-control' type='email' placeholder='Email Address'>
+								</div>
 							</div>
-
-							<div class='form_control-group'>
-								<label for='foo'>Supercalifragilistic Label</label>
-								<input id='foo' type='text' placeholder='Enter something here...'>
+							
+							<div class='block form-group'>
+								<div class='unit size1of3'>
+									<label for='foo'>Supercalifragilistic Label</label>
+								</div>
+								<div class='unit size2of3'>
+									<input id='foo' class='form-control' type='text' placeholder='Enter something here...'>
+								</div>
 							</div>
-
-							<div class='form_control-misc'>
-								<label for='cb'>
-									<input id='cb' type='checkbox'> I've read the terms and conditions
+															
+							<div class='checkbox'>
+								<label for='terms'>
+									<input id='terms' type='checkbox'> I've read the terms and conditions
 								</label>
-								<button type='submit' class='button'>Submit</button>
 							</div>
+							
+							<button type='submit' class='button'>Submit</button>
 						</fieldset>
 					</form>
-					<form class='form form_stacked'>
+					<form class='form_stacked'>
 						<fieldset>
 							<legend><h2 class='h6--margin-balance'>Multi-column form</h2></legend>
 
