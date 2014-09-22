@@ -1,11 +1,27 @@
-.form {
+form {
     margin: 0;
 }
 
-.form fieldset, .form legend {
+form fieldset, form legend {
     border: 0;
 	margin: 0;
 	padding: 0;
+}
+
+input, textarea, select {
+	padding: 0.4em;
+}
+
+.form_stacked label {
+	display: block;
+}
+
+.form-control {
+	width: 100%;
+}
+
+.form-group input, .form-group textarea, .form-group select, .checkbox {
+	margin-bottom: 0.809em;
 }
 
 .form_inline input, .form_inline label, .form_inline button, .form_aligned .form_control-group label {
@@ -20,45 +36,10 @@
 	border: 1px solid #bbbbbb;
 }
 
-.form_stacked input, .form_stacked label, .form_stacked button, .form_aligned .form_control-group, .form_aligned label {
-	margin-bottom: 0.4em;
-}
-
 .form_inline button:last-child, .form_stacked button:last-child, .form_aligned button:last-child {
 	margin: 0;
 }
 
-.form_stacked input[type='text'],
-.form_stacked input[type='password'],
-.form_stacked input[type='email'],
-.form_stacked input[type='url'],
-.form_stacked input[type='date'],
-.form_stacked input[type='month'],
-.form_stacked input[type='time'],
-.form_stacked input[type='datetime'],
-.form_stacked input[type='datetime_local'],
-.form_stacked input[type='week'],
-.form_stacked input[type='number'],
-.form_stacked input[type='search'],
-.form_stacked input[type='tel'],
-.form_stacked input[type='color'],
-.form_stacked select,
-.form_stacked label {
-  display: block;
-}
-
-.form_aligned .form_control-group {
-    display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-    display: flex;
-}
-
-.form_aligned .form_control-group label {
-	text-align: right;
-	width: 200px;
-}
-
 .form_aligned label {
-	display: block;
+	padding: 0.4em 0;
 }

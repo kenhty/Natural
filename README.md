@@ -5,7 +5,7 @@ Additional polyfills need to make older browsers to work.
 ## Features:
 
 * Modular CSS framework
-* 1.618 unitless line height
+* 1.6180339887498948482 unitless line height
 * golden ratio pull-quote width
 * 1 to 12 equal division column grid powered by CSS3 flexbox
 * 1 to 4 golden ratio division column grid powered by CSS3 flexbox
