@@ -5,8 +5,9 @@ Additional polyfills need to make older browsers to work.
 ## Features:
 
 * Modular CSS framework
-* 1.6180339887498948482 unitless line height
-* golden ratio pull-quote width
+* 1.6180339887498948482 block__unitless line height
+* golden ratio pull-quote 
+* BEM
 * 1 to 12 equal division column grid powered by CSS3 flexbox
 * 1 to 4 golden ratio division column grid powered by CSS3 flexbox
 * Fibonacci sequence in h1 h2 h3 h4 h5 h6 and other helper like .h0 - .h6
@@ -24,16 +25,16 @@ Additional polyfills need to make older browsers to work.
 ### Golden ratio grid
 
 	<nav class='block'>
-		<div class='golden-unit size1of4'>
+		<div class='block__g-block__unit block__size1of4'>
 			<p class='text-centering'>g1</p>
 		</div>
-		<div class='golden-unit size2of4'>
+		<div class='block__g-block__unit block__size2of4'>
 			<p class='text-centering'>g2</p>
 		</div>
-		<div class='golden-unit size3of4'>
+		<div class='block__g-block__unit block__size3of4'>
 			<p class='text-centering'>g3</p>
 		</div>
-		<div class='golden-unit size4of4'>
+		<div class='block__g-block__unit block__size4of4'>
 			<p class='text-centering'>g4</p>
 		</div>
 	</nav>	
@@ -41,10 +42,10 @@ Additional polyfills need to make older browsers to work.
 ### Simple flexible grid
 
 	<nav class='block'>
-		<div class='unit size1of2'>
+		<div class='block__unit block__size1of2'>
 			<p class='text-centering'>1/2</p>
 		</div>
-		<div class='unit size1of2'>
+		<div class='block__unit block__size1of2'>
 			<p class='text-centering'>1/2</p>
 		</div>
 	</nav>
@@ -53,23 +54,23 @@ Additional polyfills need to make older browsers to work.
 
 	<nav class='block'>
 		<div class='container'>
-			<div class='unit size1of2'>
+			<div class='block__unit block__size1of2'>
 				<p class='text-centering'>1/2</p>
 			</div>
-			<div class='unit size1of2'>
+			<div class='block__unit block__size1of2'>
 				<p class='text-centering'>1/2</p>
 			</div>
 		</div>
 	</nav>
 
-### Simple flexible grid with gutter
+### Simple flexible grid with block__block__gutter
 
-	<nav class='block gutter'>
+	<nav class='block block__block__gutter'>
 		<div class='container'>
-			<div class='unit size1of2'>
+			<div class='block__unit block__size1of2'>
 				<p class='text-centering'>1/2</p>
 			</div>
-			<div class='unit size1of2'>
+			<div class='block__unit block__size1of2'>
 				<p class='text-centering'>1/2</p>
 			</div>
 		</div>
@@ -79,15 +80,15 @@ Additional polyfills need to make older browsers to work.
 
 	<nav class='block'>
 		<div class='container'>
-			<div class='unit size1of2'>
+			<div class='block__unit block__size1of2'>
 				<p class='text-centering'>1/2</p>
 			</div>
-			<div class='unit size1of2'>
+			<div class='block__unit block__size1of2'>
 				<div class='block'>
-					<div class='unit size1of2'>
+					<div class='block__unit block__size1of2'>
 						<p class='text-centering'>1/2</p>
 					</div>
-					<div class='unit size1of2'>
+					<div class='block__unit block__size1of2'>
 						<p class='text-centering'>1/2</p>
 					</div>
 				</div>
@@ -95,19 +96,19 @@ Additional polyfills need to make older browsers to work.
 		</div>
 	</nav>
 
-### Mix block with gutter and block without gutter
+### Mix block with block__block__gutter and block without block__block__gutter
 
-	<nav class='block gutter'>
+	<nav class='block block__block__gutter'>
 		<div class='container'>
-			<div class='unit size1of2'>
+			<div class='block__unit block__size1of2'>
 				<p class='text-centering'>1/2</p>
 			</div>
-			<div class='unit size1of2'>
+			<div class='block__unit block__size1of2'>
 				<div class='block'>
-					<div class='unit size1of2'>
+					<div class='block__unit block__size1of2'>
 						<p class='text-centering'>1/2</p>
 					</div>
-					<div class='unit size1of2'>
+					<div class='block__unit block__size1of2'>
 						<p class='text-centering'>1/2</p>
 					</div>
 				</div>

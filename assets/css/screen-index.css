@@ -6,6 +6,10 @@
 	background-color: #ffffff;
 }
 
-.download-button {
+.button_download {
 	margin-top: 1.618em;
+}
+
+.board {
+	margin-bottom: 1.618em;
 }
