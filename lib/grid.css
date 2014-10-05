@@ -1,6 +1,6 @@
 :root {
     --golden-ratio: 1.6180339887498948482; /* golden ratio in em */
-	--gutter-width: var(--golden-ratio);
+	--block__gutter-width: var(--golden-ratio);
 	--golden-ratio-area-1: calc(100% / var(--golden-ratio)); /* 61.8% */
 	--golden-ratio-area-2: calc(100% - var(--golden-ratio-area-1)); /* 38.2% */
 	--golden-ratio-area-3: calc(var(--golden-ratio-area-2) / var(--golden-ratio)); /* 23.6% */
@@ -21,7 +21,7 @@
 	align-items: stretch;
 }
 
-.unit, .golden-unit {display: inline;}
+.block__unit, .block__g-unit {display: inline;}
 
 /* 748px = 46.75em, 977px = 61.0625em */
 @media only screen and (min-width: 46.75em) {
@@ -30,468 +30,468 @@
 	
 	/* golden ratio division grid */
 	
-	.block > .golden-unit.size1of2,
-	.block > * > .golden-unit.size1of2,
-	.block > .golden-unit.size1of3,
-	.block > * > .golden-unit.size1of3,
-	.block > .golden-unit.size1of4,
-	.block > * > .golden-unit.size1of4	{
+	.block > .block__g-unit.block__size1of2,
+	.block > * > .block__g-unit.block__size1of2,
+	.block > .block__g-unit.block__size1of3,
+	.block > * > .block__g-unit.block__size1of3,
+	.block > .block__g-unit.block__size1of4,
+	.block > * > .block__g-unit.block__size1of4	{
 		width: var(--golden-ratio-area-1);
 		width: 61.8%;
 	}
 
-	.gutter > .golden-unit.size1of2,
-	.gutter > * > .golden-unit.size1of2 {
-		width: calc(var(--golden-ratio-area-1) - (var(--gutter-width) * 1em / 2));
+	.block__gutter > .block__g-unit.block__size1of2,
+	.block__gutter > * > .block__g-unit.block__size1of2 {
+		width: calc(var(--golden-ratio-area-1) - (var(--block__gutter-width) * 1em / 2));
 		width: calc(61.8% - (1.618em / 2));
 	}
 	
-	.gutter > .golden-unit.size1of3,
-	.gutter > * > .golden-unit.size1of3 {
-		width: calc(var(--golden-ratio-area-1) - (var(--gutter-width) * 1em * 2 / 3));
+	.block__gutter > .block__g-unit.block__size1of3,
+	.block__gutter > * > .block__g-unit.block__size1of3 {
+		width: calc(var(--golden-ratio-area-1) - (var(--block__gutter-width) * 1em * 2 / 3));
 		width: calc(61.8% - (1.618em * 2 / 3));
 	}
 	
-	.gutter > .golden-unit.size1of4,
-	.gutter > * > .golden-unit.size1of4 {
-		width: calc(var(--golden-ratio-area-1) - (var(--gutter-width) * 1em * 3 / 4));
+	.block__gutter > .block__g-unit.block__size1of4,
+	.block__gutter > * > .block__g-unit.block__size1of4 {
+		width: calc(var(--golden-ratio-area-1) - (var(--block__gutter-width) * 1em * 3 / 4));
 		width: calc(61.8% - (1.618em * 3 / 4));
 	}
 	
-	.block > .golden-unit.size2of2,
-	.block > * > .golden-unit.size2of2 {
+	.block > .block__g-unit.block__size2of2,
+	.block > * > .block__g-unit.block__size2of2 {
 		width: var(--golden-ratio-area-2);
 		width: 38.2%;
 	}
 
-	.gutter > .golden-unit.size2of2,
-	.gutter > * > .golden-unit.size2of2 {
-		width: calc(var(--golden-ratio-area-2) - (var(--gutter-width) * 1em / 2));
+	.block__gutter > .block__g-unit.block__size2of2,
+	.block__gutter > * > .block__g-unit.block__size2of2 {
+		width: calc(var(--golden-ratio-area-2) - (var(--block__gutter-width) * 1em / 2));
 		width: calc(38.2% - (1.618em / 2));
 	}
 
-	.block > .golden-unit.size2of3,
-	.block > * > .golden-unit.size2of3,
-	.block > .golden-unit.size2of4,
-	.block > * > .golden-unit.size2of4 {
+	.block > .block__g-unit.block__size2of3,
+	.block > * > .block__g-unit.block__size2of3,
+	.block > .block__g-unit.block__size2of4,
+	.block > * > .block__g-unit.block__size2of4 {
 		width: var(--golden-ratio-area-3);
 		width: 23.6%;
 	}
 
-	.gutter > .golden-unit.size2of3,
-	.gutter > * > .golden-unit.size2of3 {
-		width: calc(var(--golden-ratio-area-3) - (var(--gutter-width) * 1em * 2 / 3));
+	.block__gutter > .block__g-unit.block__size2of3,
+	.block__gutter > * > .block__g-unit.block__size2of3 {
+		width: calc(var(--golden-ratio-area-3) - (var(--block__gutter-width) * 1em * 2 / 3));
 		width: calc(23.6% - (1.618em * 2 / 3));
 	}
 	
-	.gutter > .golden-unit.size2of4,
-	.gutter > * > .golden-unit.size2of4 {
-		width: calc(var(--golden-ratio-area-3) - (var(--gutter-width) * 1em * 3 / 4));
+	.block__gutter > .block__g-unit.block__size2of4,
+	.block__gutter > * > .block__g-unit.block__size2of4 {
+		width: calc(var(--golden-ratio-area-3) - (var(--block__gutter-width) * 1em * 3 / 4));
 		width: calc(23.6% - (1.618em * 3 / 4));
 	}
 	
-	.block > .golden-unit.size3of3,
-	.block > * > .golden-unit.size3of3 {
+	.block > .block__g-unit.block__size3of3,
+	.block > * > .block__g-unit.block__size3of3 {
 		width: var(--golden-ratio-area-4);
 		width: 14.6%;
 	}
 
-	.gutter > .golden-unit.size3of3,
-	.gutter > * > .golden-unit.size3of3 {
-		width: calc(var(--golden-ratio-area-4) - (var(--gutter-width) * 1em * 2 / 3));
+	.block__gutter > .block__g-unit.block__size3of3,
+	.block__gutter > * > .block__g-unit.block__size3of3 {
+		width: calc(var(--golden-ratio-area-4) - (var(--block__gutter-width) * 1em * 2 / 3));
 		width: calc(14.6% - (1.618em * 2 / 3));
 	}
 	
-	.block > .golden-unit.size3of4,
-	.block > * > .golden-unit.size3of4 {
+	.block > .block__g-unit.block__size3of4,
+	.block > * > .block__g-unit.block__size3of4 {
 		width: var(--golden-ratio-area-5);
 		width: 9%;
 	}
 
-	.gutter > .golden-unit.size3of4,
-	.gutter > * > .golden-unit.size3of4 {
-		width: calc(var(--golden-ratio-area-5) - (var(--gutter-width) * 1em * 3 / 4));
+	.block__gutter > .block__g-unit.block__size3of4,
+	.block__gutter > * > .block__g-unit.block__size3of4 {
+		width: calc(var(--golden-ratio-area-5) - (var(--block__gutter-width) * 1em * 3 / 4));
 		width: calc(9% - (1.618em * 3 / 4));
 	}
 	
-	.block > .golden-unit.size4of4,
-	.block > * > .golden-unit.size4of4 {
+	.block > .block__g-unit.block__size4of4,
+	.block > * > .block__g-unit.block__size4of4 {
 		width: var(--golden-ratio-area-6);
 		width: 5.6%;
 	}
 
-	.gutter > .golden-unit.size4of4,
-	.gutter > * > .golden-unit.size4of4 {
-		width: calc(var(--golden-ratio-area-6) - (var(--gutter-width) * 1em * 3 / 4));
+	.block__gutter > .block__g-unit.block__size4of4,
+	.block__gutter > * > .block__g-unit.block__size4of4 {
+		width: calc(var(--golden-ratio-area-6) - (var(--block__gutter-width) * 1em * 3 / 4));
 		width: calc(5.6% - (1.618em * 3 / 4));
 	}
 	
 	/* equal division grid */
 	
-	.block > .size1of2,
-	.block > * > .size1of2 {width: calc(100% / 2);}
+	.block > .block__size1of2,
+	.block > * > .block__size1of2 {width: calc(100% / 2);}
 
-	.gutter > .size1of2,
-	.gutter > * > .size1of2 {
-		width: calc((100% - var(--gutter-width)) / 2);
+	.block__gutter > .block__size1of2,
+	.block__gutter > * > .block__size1of2 {
+		width: calc((100% - var(--block__gutter-width)) / 2);
 		width: calc((100% - 1.618em) / 2);
 	}
 
-	.block > .size1of3,
-	.block > * > .size1of3 {width: calc(100% / 3);}
+	.block > .block__size1of3,
+	.block > * > .block__size1of3 {width: calc(100% / 3);}
 
-	.block > .size2of3,
-	.block > * > .size2of3 {width: calc(100% * 2 / 3);}
+	.block > .block__size2of3,
+	.block > * > .block__size2of3 {width: calc(100% * 2 / 3);}
 
-	.gutter > .size1of3,
-	.gutter > * > .size1of3 {
+	.block__gutter > .block__size1of3,
+	.block__gutter > * > .block__size1of3 {
 		width: calc((100% - 2 * 1.618em) / 3);
 	}
 
-	.gutter > .size2of3,
-	.gutter > * > .size2of3 {
+	.block__gutter > .block__size2of3,
+	.block__gutter > * > .block__size2of3 {
 		width: calc(((100% - 2 * 1.618em) / 3) * 2 + 1.618em);
 	}
 
-	.block > .size1of4,
-	.block > * > .size1of4 {width: calc(100% / 4);}
+	.block > .block__size1of4,
+	.block > * > .block__size1of4 {width: calc(100% / 4);}
 
-	.block > .size3of4,
-	.block > * > .size3of4 {width: calc(100% * 3 / 4);}
+	.block > .block__size3of4,
+	.block > * > .block__size3of4 {width: calc(100% * 3 / 4);}
 
-	.gutter > .size1of4,
-	.gutter > * > .size1of4 {
+	.block__gutter > .block__size1of4,
+	.block__gutter > * > .block__size1of4 {
 		width: calc((100% - 3 * 1.618em) / 4);
 	}
 
-	.gutter > .size3of4,
-	.gutter > * > .size3of4 {
+	.block__gutter > .block__size3of4,
+	.block__gutter > * > .block__size3of4 {
 		width: calc(((100% - 3 * 1.618em) / 4) * 3 + 2 * 1.618em);
 	}
 
-	.block > .size1of5,
-	.block > * > .size1of5 {width: calc(100% / 5);}
+	.block > .block__size1of5,
+	.block > * > .block__size1of5 {width: calc(100% / 5);}
 
-	.block > .size2of5,
-	.block > * > .size2of5 {width: calc(100% * 2 / 5);}
+	.block > .block__size2of5,
+	.block > * > .block__size2of5 {width: calc(100% * 2 / 5);}
 
-	.block > .size3of5,
-	.block > * > .size3of5 {width: calc(100% * 3 / 5);}
+	.block > .block__size3of5,
+	.block > * > .block__size3of5 {width: calc(100% * 3 / 5);}
 
-	.block > .size4of5,
-	.block > * > .size4of5 {width: calc(100% * 4 / 5);}
+	.block > .block__size4of5,
+	.block > * > .block__size4of5 {width: calc(100% * 4 / 5);}
 
-	.gutter > .size1of5,
-	.gutter > * > .size1of5 {
+	.block__gutter > .block__size1of5,
+	.block__gutter > * > .block__size1of5 {
 		width: calc((100% - 4 * 1.618em) / 5);
 	}
 	 
-	.gutter > .size2of5,
-	.gutter > * > .size2of5 {
+	.block__gutter > .block__size2of5,
+	.block__gutter > * > .block__size2of5 {
 		width: calc(((100% - 4 * 1.618em) / 5) * 2 + 1.618em);
 	}
 
-	.gutter > .size3of5,
-	.gutter > * > .size3of5 {
+	.block__gutter > .block__size3of5,
+	.block__gutter > * > .block__size3of5 {
 		width: calc(((100% - 4 * 1.618em) / 5) * 3 + 2 * 1.618em);
 	}
 
-	.gutter > .size4of5,
-	.gutter > * > .size4of5 {
+	.block__gutter > .block__size4of5,
+	.block__gutter > * > .block__size4of5 {
 		width: calc(((100% - 4 * 1.618em) / 5) * 4 + 3 * 1.618em);
 	}
 
-	.block > .size1of6,
-	.block > * > .size1of6 {width: calc(100% / 6);}
+	.block > .block__size1of6,
+	.block > * > .block__size1of6 {width: calc(100% / 6);}
 
-	.block > .size5of6,
-	.block > * > .size5of6 {width: calc(100% * 5 / 6);}
+	.block > .block__size5of6,
+	.block > * > .block__size5of6 {width: calc(100% * 5 / 6);}
 
-	.gutter > .size1of6,
-	.gutter > * > .size1of6 {
+	.block__gutter > .block__size1of6,
+	.block__gutter > * > .block__size1of6 {
 		width: calc((100% - 5 * 1.618em) / 6);
 	}
 
-	.gutter > .size5of6,
-	.gutter > * > .size5of6 {
+	.block__gutter > .block__size5of6,
+	.block__gutter > * > .block__size5of6 {
 		width: calc(((100% - 5 * 1.618em) / 6) * 5 + 4 * 1.618em);
 	}
 
-	.block > .size1of7,
-	.block > * > .size1of7 {width: calc(100% / 7);}
+	.block > .block__size1of7,
+	.block > * > .block__size1of7 {width: calc(100% / 7);}
 
-	.block > .size2of7,
-	.block > * > .size2of7 {width: calc(100% * 2 / 7);}
+	.block > .block__size2of7,
+	.block > * > .block__size2of7 {width: calc(100% * 2 / 7);}
 
-	.block > .size3of7,
-	.block > * > .size3of7 {width: calc(100% * 3 / 7);}
+	.block > .block__size3of7,
+	.block > * > .block__size3of7 {width: calc(100% * 3 / 7);}
 
-	.block > .size4of7,
-	.block > * > .size4of7 {width: calc(100% * 4 / 7);}
+	.block > .block__size4of7,
+	.block > * > .block__size4of7 {width: calc(100% * 4 / 7);}
 
-	.block > .size5of7,
-	.block > * > .size5of7 {width: calc(100% * 5 / 7);}
+	.block > .block__size5of7,
+	.block > * > .block__size5of7 {width: calc(100% * 5 / 7);}
 
-	.block > .size6of7,
-	.block > * > .size6of7 {width: calc(100% * 6 / 7);}
+	.block > .block__size6of7,
+	.block > * > .block__size6of7 {width: calc(100% * 6 / 7);}
 
 
-	.gutter > .size1of7,
-	.gutter > * > .size1of7 {
+	.block__gutter > .block__size1of7,
+	.block__gutter > * > .block__size1of7 {
 		width: calc((100% - 6 * 1.618em) / 7);
 	}
 
-	.gutter > .size2of7,
-	.gutter > * > .size2of7 {
+	.block__gutter > .block__size2of7,
+	.block__gutter > * > .block__size2of7 {
 		width: calc(((100% - 6 * 1.618em) / 7) * 2 + 1.618em);
 	}
 
-	.gutter > .size3of7,
-	.gutter > * > .size3of7 {
+	.block__gutter > .block__size3of7,
+	.block__gutter > * > .block__size3of7 {
 		width: calc(((100% - 6 * 1.618em) / 7) * 3 + 2 * 1.618em);
 	}
 
-	.gutter > .size4of7,
-	.gutter > * > .size4of7 {
+	.block__gutter > .block__size4of7,
+	.block__gutter > * > .block__size4of7 {
 		width: calc(((100% - 6 * 1.618em) / 7) * 4 + 3 * 1.618em);
 	}
 
-	.gutter > .size5of7,
-	.gutter > * > .size5of7 {
+	.block__gutter > .block__size5of7,
+	.block__gutter > * > .block__size5of7 {
 		width: calc(((100% - 6 * 1.618em) / 7) * 5 + 4 * 1.618em);
 	}
 
-	.gutter > .size6of7,
-	.gutter > * > .size6of7 {
+	.block__gutter > .block__size6of7,
+	.block__gutter > * > .block__size6of7 {
 		width: calc(((100% - 6 * 1.618em) / 7) * 6 + 5 * 1.618em);
 	}
 
-	.block > .size1of8,
-	.block > * > .size1of8 {width: calc(100% / 8);}
+	.block > .block__size1of8,
+	.block > * > .block__size1of8 {width: calc(100% / 8);}
 
-	.block > .size3of8,
-	.block > * > .size3of8 {width: calc(100% * 3 / 8);}
+	.block > .block__size3of8,
+	.block > * > .block__size3of8 {width: calc(100% * 3 / 8);}
 
-	.block > .size5of8,
-	.block > * > .size5of8 {width: calc(100% * 5 / 8);}
+	.block > .block__size5of8,
+	.block > * > .block__size5of8 {width: calc(100% * 5 / 8);}
 
-	.block > .size7of8,
-	.block > * > .size7of8 {width: calc(100% * 7 / 8);}
+	.block > .block__size7of8,
+	.block > * > .block__size7of8 {width: calc(100% * 7 / 8);}
 
-	.gutter > .size1of8,
-	.gutter > * > .size1of8 {
+	.block__gutter > .block__size1of8,
+	.block__gutter > * > .block__size1of8 {
 		width: calc((100% - 7 * 1.618em) / 8);
 	}
 
-	.gutter > .size3of8,
-	.gutter > * > .size3of8 {
+	.block__gutter > .block__size3of8,
+	.block__gutter > * > .block__size3of8 {
 		width: calc(((100% - 7 * 1.618em) / 8) * 3 + 2 * 1.618em);
 	}
 
-	.gutter > .size5of8,
-	.gutter > * > .size5of8 {
+	.block__gutter > .block__size5of8,
+	.block__gutter > * > .block__size5of8 {
 		width: calc(((100% - 7 * 1.618em) / 8) * 5 + 4 * 1.618em);
 	}
 
-	.gutter > .size7of8,
-	.gutter > * > .size7of8 {
+	.block__gutter > .block__size7of8,
+	.block__gutter > * > .block__size7of8 {
 		width: calc(((100% - 7 * 1.618em) / 8) * 7 + 6 * 1.618em);
 	}
 
-	.block > .size1of9,
-	.block > * > .size1of9 {width: calc(100% / 9);}
+	.block > .block__size1of9,
+	.block > * > .block__size1of9 {width: calc(100% / 9);}
 
-	.block > .size2of9,
-	.block > * > .size2of9 {width: calc(100% * 2 / 9);}
+	.block > .block__size2of9,
+	.block > * > .block__size2of9 {width: calc(100% * 2 / 9);}
 
-	.block > .size4of9,
-	.block > * > .size4of9 {width: calc(100% * 4 / 9);}
+	.block > .block__size4of9,
+	.block > * > .block__size4of9 {width: calc(100% * 4 / 9);}
 
-	.block > .size5of9,
-	.block > * > .size5of9 {width: calc(100% * 5 / 9);}
+	.block > .block__size5of9,
+	.block > * > .block__size5of9 {width: calc(100% * 5 / 9);}
 
-	.block > .size7of9,
-	.block > * > .size7of9 {width: calc(100% * 7 / 9);}
+	.block > .block__size7of9,
+	.block > * > .block__size7of9 {width: calc(100% * 7 / 9);}
 
-	.block > .size8of9,
-	.block > * > .size8of9 {width: calc(100% * 8 / 9);}
+	.block > .block__size8of9,
+	.block > * > .block__size8of9 {width: calc(100% * 8 / 9);}
 
-	.gutter > .size1of9,
-	.gutter > * > .size1of9 {
+	.block__gutter > .block__size1of9,
+	.block__gutter > * > .block__size1of9 {
 		width: calc((100% - 8 * 1.618em) / 9);
 	}
 
-	.gutter > .size2of9,
-	.gutter > * > .size2of9 {
+	.block__gutter > .block__size2of9,
+	.block__gutter > * > .block__size2of9 {
 		width: calc(((100% - 8 * 1.618em) / 9) * 2 + 1.618em);
 	}
 
-	.gutter > .size4of9,
-	.gutter > * > .size4of9 {
+	.block__gutter > .block__size4of9,
+	.block__gutter > * > .block__size4of9 {
 		width: calc(((100% - 8 * 1.618em) / 9) * 4 + 3 * 1.618em);
 	}
 
-	.gutter > .size5of9,
-	.gutter > * > .size5of9 {
+	.block__gutter > .block__size5of9,
+	.block__gutter > * > .block__size5of9 {
 		width: calc(((100% - 8 * 1.618em) / 9) * 5 + 4 * 1.618em);
 	}
 
-	.gutter > .size7of9,
-	.gutter > * > .size7of9 {
+	.block__gutter > .block__size7of9,
+	.block__gutter > * > .block__size7of9 {
 		width: calc(((100% - 8 * 1.618em) / 9) * 7 + 6 * 1.618em);
 	}
 
-	.gutter > .size8of9,
-	.gutter > * > .size8of9 {
+	.block__gutter > .block__size8of9,
+	.block__gutter > * > .block__size8of9 {
 		width: calc(((100% - 8 * 1.618em) / 9) * 8 + 7 * 1.618em);
 	}
 
-	.block > .size1of10,
-	.block > * > .size1of10 {width: calc(100% / 10);}
+	.block > .block__size1of10,
+	.block > * > .block__size1of10 {width: calc(100% / 10);}
 
-	.block > .size3of10,
-	.block > * > .size3of10 {width: calc(100% * 3 / 10);}
+	.block > .block__size3of10,
+	.block > * > .block__size3of10 {width: calc(100% * 3 / 10);}
 
-	.block > .size7of10,
-	.block > * > .size7of10 {width: calc(100% * 7 / 10);}
+	.block > .block__size7of10,
+	.block > * > .block__size7of10 {width: calc(100% * 7 / 10);}
 
-	.block > .size9of10,
-	.block > * > .size9of10 {width: calc(100% * 9 / 10);}
+	.block > .block__size9of10,
+	.block > * > .block__size9of10 {width: calc(100% * 9 / 10);}
 
-	.gutter > .size1of10,
-	.gutter > * > .size1of10 {
+	.block__gutter > .block__size1of10,
+	.block__gutter > * > .block__size1of10 {
 		width: calc((100% - 9 * 1.618em) / 10);
 	}
 
-	.gutter > .size3of10,
-	.gutter > * > .size3of10 {
+	.block__gutter > .block__size3of10,
+	.block__gutter > * > .block__size3of10 {
 		width: calc(((100% - 9 * 1.618em) / 10) * 3 + 2 * 1.618em);
 	}
 
-	.gutter > .size7of10,
-	.gutter > * > .size7of10 {
+	.block__gutter > .block__size7of10,
+	.block__gutter > * > .block__size7of10 {
 		width: calc(((100% - 9 * 1.618em) / 10) * 7 + 6 * 1.618em);
 	}
 
-	.gutter > .size9of10,
-	.gutter > * > .size9of10 {
+	.block__gutter > .block__size9of10,
+	.block__gutter > * > .block__size9of10 {
 		width: calc(((100% - 9 * 1.618em) / 10) * 9 + 8 * 1.618em);
 	}
 
-	.block > .size1of11,
-	.block > * > .size1of11 {width: calc(100% / 11);}
+	.block > .block__size1of11,
+	.block > * > .block__size1of11 {width: calc(100% / 11);}
 
-	.block > .size2of11,
-	.block > * > .size2of11 {width: calc(100% * 2 / 11);}
+	.block > .block__size2of11,
+	.block > * > .block__size2of11 {width: calc(100% * 2 / 11);}
 
-	.block > .size3of11,
-	.block > * > .size3of11 {width: calc(100% * 3 / 11);}
+	.block > .block__size3of11,
+	.block > * > .block__size3of11 {width: calc(100% * 3 / 11);}
 
-	.block > .size4of11,
-	.block > * > .size4of11 {width: calc(100% * 4 / 11);}
+	.block > .block__size4of11,
+	.block > * > .block__size4of11 {width: calc(100% * 4 / 11);}
 
-	.block > .size5of11,
-	.block > * > .size5of11 {width: calc(100% * 5 / 11);}
+	.block > .block__size5of11,
+	.block > * > .block__size5of11 {width: calc(100% * 5 / 11);}
 
-	.block > .size6of11,
-	.block > * > .size6of11 {width: calc(100% * 6 / 11);}
+	.block > .block__size6of11,
+	.block > * > .block__size6of11 {width: calc(100% * 6 / 11);}
 
-	.block > .size7of11,
-	.block > * > .size7of11 {width: calc(100% * 7 / 11);}
+	.block > .block__size7of11,
+	.block > * > .block__size7of11 {width: calc(100% * 7 / 11);}
 
-	.block > .size8of11,
-	.block > * > .size8of11 {width: calc(100% * 8 / 11);}
+	.block > .block__size8of11,
+	.block > * > .block__size8of11 {width: calc(100% * 8 / 11);}
 
-	.block > .size9of11,
-	.block > * > .size9of11 {width: calc(100% * 9 / 11);}
+	.block > .block__size9of11,
+	.block > * > .block__size9of11 {width: calc(100% * 9 / 11);}
 
-	.block > .size10of11,
-	.block > * > .size10of11 {width: calc(100% * 10 / 11);}
+	.block > .block__size10of11,
+	.block > * > .block__size10of11 {width: calc(100% * 10 / 11);}
 
-	.gutter > .size1of11,
-	.gutter > * > .size1of11 {
+	.block__gutter > .block__size1of11,
+	.block__gutter > * > .block__size1of11 {
 		width: calc((100% - 10 * 1.618em) / 11);
 	}
 
-	.gutter > .size2of11,
-	.gutter > * > .size2of11 {
+	.block__gutter > .block__size2of11,
+	.block__gutter > * > .block__size2of11 {
 		width: calc(((100% - 10 * 1.618em) / 11) * 2 + 1.618em);
 	}
 
-	.gutter > .size3of11,
-	.gutter > * > .size3of11 {
+	.block__gutter > .block__size3of11,
+	.block__gutter > * > .block__size3of11 {
 		width: calc(((100% - 10 * 1.618em) / 11) * 3 + 2 * 1.618em);
 	}
 
-	.gutter > .size4of11,
-	.gutter > * > .size4of11 {
+	.block__gutter > .block__size4of11,
+	.block__gutter > * > .block__size4of11 {
 		width: calc(((100% - 10 * 1.618em) / 11) * 4 + 3 * 1.618em);
 	}
 
-	.gutter > .size5of11,
-	.gutter > * > .size5of11 {
+	.block__gutter > .block__size5of11,
+	.block__gutter > * > .block__size5of11 {
 		width: calc(((100% - 10 * 1.618em) / 11) * 4 + 3 * 1.618em);
 	}
 
-	.gutter > .size6of11,
-	.gutter > * > .size6of11 {
+	.block__gutter > .block__size6of11,
+	.block__gutter > * > .block__size6of11 {
 		width: calc(((100% - 10 * 1.618em) / 11) * 6 + 5 * 1.618em);
 	}
 
-	.gutter > .size7of11,
-	.gutter > * > .size7of11 {
+	.block__gutter > .block__size7of11,
+	.block__gutter > * > .block__size7of11 {
 		width: calc(((100% - 10 * 1.618em) / 11) * 7 + 6 * 1.618em);
 	}
 
-	.gutter > .size8of11,
-	.gutter > * > .size8of11 {
+	.block__gutter > .block__size8of11,
+	.block__gutter > * > .block__size8of11 {
 		width: calc(((100% - 10 * 1.618em) / 11) * 8 + 7 * 1.618em);
 	}
 
-	.gutter > .size9of11,
-	.gutter > * > .size9of11 {
+	.block__gutter > .block__size9of11,
+	.block__gutter > * > .block__size9of11 {
 		width: calc(((100% - 10 * 1.618em) / 11) * 9 + 8 * 1.618em);
 	}
 
-	.gutter > .size10of11,
-	.gutter > * > .size10of11 {
+	.block__gutter > .block__size10of11,
+	.block__gutter > * > .block__size10of11 {
 		width: calc(((100% - 10 * 1.618em) / 11) * 10 + 9 * 1.618em);
 	}
 
-	.block > .size1of12,
-	.block > * > .size1of12 {width: calc(100% / 12);}
+	.block > .block__size1of12,
+	.block > * > .block__size1of12 {width: calc(100% / 12);}
 
-	.block > .size5of12,
-	.block > * > .size5of12 {width: calc(100% * 5 / 12);}
+	.block > .block__size5of12,
+	.block > * > .block__size5of12 {width: calc(100% * 5 / 12);}
 
-	.block > .size7of12,
-	.block > * > .size7of12 {width: calc(100% * 7 / 12);}
+	.block > .block__size7of12,
+	.block > * > .block__size7of12 {width: calc(100% * 7 / 12);}
 
-	.block > .size11of12,
-	.block > * > .size11of12 {width: calc(100% * 11 / 12);}
+	.block > .block__size11of12,
+	.block > * > .block__size11of12 {width: calc(100% * 11 / 12);}
 
-	.gutter > .size1of12,
-	.gutter > * > .size1of12 {
+	.block__gutter > .block__size1of12,
+	.block__gutter > * > .block__size1of12 {
 		width: calc((100% - 11 * 1.618em) / 12);
 	}
 
-	.gutter > .size5of12,
-	.gutter > * > .size5of12 {
+	.block__gutter > .block__size5of12,
+	.block__gutter > * > .block__size5of12 {
 		width: calc(((100% - 11 * 1.618em) / 12) * 5 + 4 * 1.618em);
 	}
 
-	.gutter > .size7of12,
-	.gutter > * > .size7of12 {
+	.block__gutter > .block__size7of12,
+	.block__gutter > * > .block__size7of12 {
 		width: calc(((100% - 11 * 1.618em) / 12) * 7 + 6 * 1.618em);
 	}
 
-	.gutter > .size11of12,
-	.gutter > * > .size11of12 {
+	.block__gutter > .block__size11of12,
+	.block__gutter > * > .block__size11of12 {
 		width: calc(((100% - 11 * 1.618em) / 12) * 11 + 10 * 1.618em);
 	}
 
-	.block > .size1of1,
-	.block > * > .size1of1 {width:100%;}
+	.block > .block__size1of1,
+	.block > * > .block__size1of1 {width:100%;}
 }
 
 .container--center {margin: auto;}
