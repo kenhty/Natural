@@ -25,16 +25,16 @@ Additional polyfills need to make older browsers to work.
 ### Golden ratio grid
 
 	<nav class='block'>
-		<div class='block__g-block__unit block__size1of4'>
+		<div class='block__g-unit block__size1of4'>
 			<p class='text-centering'>g1</p>
 		</div>
-		<div class='block__g-block__unit block__size2of4'>
+		<div class='block__g-unit block__size2of4'>
 			<p class='text-centering'>g2</p>
 		</div>
-		<div class='block__g-block__unit block__size3of4'>
+		<div class='block__g-unit block__size3of4'>
 			<p class='text-centering'>g3</p>
 		</div>
-		<div class='block__g-block__unit block__size4of4'>
+		<div class='block__g-unit block__size4of4'>
 			<p class='text-centering'>g4</p>
 		</div>
 	</nav>	
